@@ -27,7 +27,7 @@ PLEASE DO NOT EDIT THIS PAGE! You can play around with Markdown on our [live dem
 [Blockquotes](#blockquotes)  
 [Inline HTML](#html)  
 [Horizontal Rule](#hr)  
-[Line Breaks](#lines)  
+[Line Breaks](#linebreaks)  
 [Youtube videos](#videos)  
  
 <a name="headers"/>
@@ -356,7 +356,7 @@ ___
 Underscores
  
 <a name="lines"/>
-## Line Breaks
+## [](Line Breaks "linebreaks")
  
 My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend. 
  
