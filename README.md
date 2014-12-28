@@ -1,43 +1,40 @@
-Github-Markdown-Reference
-=========================
+# Introduction
 
-A reference for Github-flavored Markdown syntax. 
+This is a cheatsheet for Github-style Markdown, containing syntax and examples. Markdown is originally by John Gruber, and you should read his [original specification](http://daringfireball.net/projects/markdown/). Markdown is ubiquitous at the time of this writing, and is the syntax of choice for many wikis, blogs, forums and website generator applications. Markdown allows you to enter markup in an easy-to-remember manner, for instance using asterisks for emphasis (``**text to be emphasized**``) or pound-signs in front of headers (``### An H3 Header``).  
 
-MarkdownReference
-=================
+**References**
 
-Short reference and introduction to markdown. Taken and expanded from https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+* [Markdown specification](http://daringfireball.net/projects/markdown/) by John Gruber.
+* Github Help Documentation on [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) and [Writing on Github](https://help.github.com/articles/writing-on-github). 
+* Repositories from [dvidsilva](https://github.com/dvidsilva/MarkdownReference) and [adam-p](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+* Adam Pritchard's [Markdown Here](http://www.markdown-here.com/livedemo.html) demo site, where you can experiment in a kind of "sandbox" environment. 
 
-https://github.com/dvidsilva/MarkdownReference
-https://help.github.com/articles/writing-on-github
-https://help.github.com/articles/github-flavored-markdown
+**Request**
 
-> **test test**
+Please _don't edit this page_. Rather, if you have a suggestion, fork and make a pull request. 
 
-asdfasdf
+## Table of Contents
 
+###### [Headers](#headers)  
+###### [Emphasis](#emphasis)  
+###### [Lists](#lists)  
+###### [Links](#links)  
 
-This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/).
- 
- 
-PLEASE DO NOT EDIT THIS PAGE! You can play around with Markdown on our [live demo page](http://www.markdown-here.com/livedemo.html).
- 
-##### Table of Contents  
-[Headers](#headers)  
-[Emphasis](#emphasis)  
-[Lists](#lists)  
-[Links](#links)  
-[Images](#images)  
-[Code and Syntax Highlighting](#code)  
-[Tables](#tables)  
-[Blockquotes](#blockquotes)  
+* [Images](#images)  
+* [Code and Syntax Highlighting](#code)  
+* [Tables](#tables)  
+* [Blockquotes](#blockquotes)  
+
 [Inline HTML](#html)  
 [Horizontal Rule](#hr)  
 [Line Breaks](#linebreaks)  
-[Youtube videos](#videos)  
+[Youtube videos](#videos) 
+
+# Markdown Reference & Showcase
  
 <a name="headers"/>
-## Headers
+> **HEADERS**
+
  
 ```no-highlight
 # H1
