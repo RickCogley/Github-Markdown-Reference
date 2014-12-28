@@ -86,6 +86,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ##### H5 Header
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
  
+* * * 
 <a name="emphasis"/>
 > ## Emphasis
  
@@ -107,7 +108,7 @@ Combined emphasis with **asterisks and _underscores_**.
  
 Strikethrough uses two tildes. ~~Scratch this.~~
  
- 
+* * *  
 <a name="lists"/>
 > ## Lists
  
@@ -148,7 +149,8 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 * Unordered list can use asterisks
 - Or minuses
 + Or pluses
- 
+
+* * *  
 <a name="links"/>
 > ## Links
  
@@ -191,7 +193,8 @@ Some text to show that the reference links can follow later.
 [arbitrary case-insensitive reference text]: https://www.mozilla.org
 [1]: http://slashdot.org
 [link text itself]: http://www.reddit.com
- 
+
+* * *  
 <a name="images"/>
 > ## Images
  
@@ -216,7 +219,8 @@ Reference-style:
 ![alt text][logo]
  
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
- 
+
+* * *  
 <a name="code"/>
 > ## Code and Syntax Highlighting
  
@@ -263,7 +267,7 @@ No language indicated, so no syntax highlighting in Markdown Here (varies on Git
 But let's throw in a <b>tag</b>.
 ```
  
- 
+* * *  
 <a name="tables"/>
 > ## Tables
  
@@ -300,7 +304,8 @@ Markdown | Less | Pretty
 --- | --- | ---
 *Still* | `renders` | **nicely**
 1 | 2 | 3
- 
+
+* * *  
 <a name="blockquotes"/>
 > ## Blockquotes
  
@@ -342,7 +347,8 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
   <dt>Markdown in HTML</dt>
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
- 
+
+* * *  
 <a name="hr"/>
 > ## Horizontal Rule
  
@@ -375,7 +381,8 @@ Asterisks
 ___
  
 Underscores
- 
+
+* * *  
 <a name="linebreaks"/>
 > ## Line Breaks
  
@@ -400,11 +407,12 @@ This line is also begins a separate paragraph, but...
 This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
  
 (Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use MD's two-space line breaks.)
+
+* * *  
+<a name="embed"/>
+> ## HTML Embeds
  
-<a name="videos"/>
-> ## Youtube videos
- 
-They can't be added directly but you can add an image with a link to the video like this:
+Youtube videos have an embed code (an html iframe) which is accessible from Share, Embed on the video page. They can't be added directly but you can add an image with a link to the video like this:
  
 ```no-highlight
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
@@ -417,6 +425,9 @@ Or, in pure Markdown, but losing the image sizing and border:
 ```no-highlight
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 ```
+
+[![Bazaar at Shinbashi Tokyo, by Rick Cogley](http://img.youtube.com/vi/ibhHk0CCYXA/0.jpg)](http://www.youtube.com/watch?v=ibhHk0CCYXA)
  
+
 Referencing a bug by #bugID in your git commit links it to the slip. For example #1. 
 
