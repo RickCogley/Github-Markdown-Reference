@@ -1,6 +1,6 @@
 # INTRODUCTION
 
-This is a cheatsheet for Github-style Markdown, containing syntax and examples. Markdown is originally by John Gruber, and you should read his [original specification](http://daringfireball.net/projects/markdown/). Markdown is ubiquitous at the time of this writing, and is the syntax of choice for many wikis, blogs, forums and website generator applications. Markdown allows you to enter markup in an easy-to-remember manner, for instance using asterisks for emphasis (``**text to be emphasized**``) or pound-signs in front of headers (``### An H3 Header``).  
+This is a cheatsheet for Github-style Markdown, containing syntax and examples. Markdown is originally by John Gruber, and you should read his [original specification](http://daringfireball.net/projects/markdown/). Markdown is ubiquitous at the time of this writing, and is the syntax of choice for many wikis, blogs, forums and website generator applications. Markdown allows you to enter markup in an easy-to-remember manner, for instance using asterisks for emphasis (``**text to be emphasized**``) or pound-signs in front of headers (``### An H3 Header``), and it then takes care of the conversion to HTML markup in in the background.   
 
 **Request**
 
@@ -66,7 +66,7 @@ Alt-H2
 ------
  
 <a name="emphasis"/>
-## Emphasis
+> ## Emphasis
  
 ```no-highlight
 Emphasis, aka italics, with *asterisks* or _underscores_.
@@ -88,7 +88,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
  
  
 <a name="lists"/>
-## Lists
+> ## Lists
  
 (In this example, leading and trailing spaces are shown with with dots: ⋅)
  
@@ -129,7 +129,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 + Or pluses
  
 <a name="links"/>
-## Links
+> ## Links
  
 There are two ways to create links.
  
@@ -172,7 +172,7 @@ Some text to show that the reference links can follow later.
 [link text itself]: http://www.reddit.com
  
 <a name="images"/>
-## Images
+> ## Images
  
 ```no-highlight
 Here's our logo (hover to see the title text):
@@ -197,7 +197,7 @@ Reference-style:
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
  
 <a name="code"/>
-## Code and Syntax Highlighting
+> ## Code and Syntax Highlighting
  
 Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
  
@@ -244,7 +244,7 @@ But let's throw in a <b>tag</b>.
  
  
 <a name="tables"/>
-## Tables
+> ## Tables
  
 Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
  
@@ -281,7 +281,7 @@ Markdown | Less | Pretty
 1 | 2 | 3
  
 <a name="blockquotes"/>
-## Blockquotes
+> ## Blockquotes
  
 ```no-highlight
 > Blockquotes are very handy in email to emulate reply text.
@@ -300,7 +300,7 @@ Quote break.
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
  
 <a name="html"/>
-## Inline HTML
+> ## Inline HTML
  
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well. 
  
@@ -323,7 +323,7 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 </dl>
  
 <a name="hr"/>
-## Horizontal Rule
+> ## Horizontal Rule
  
 ```
 Three or more...
@@ -356,7 +356,7 @@ ___
 Underscores
  
 <a name="linebreaks"/>
-## Line Breaks
+> ## Line Breaks
  
 My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend. 
  
@@ -381,7 +381,7 @@ This line is only separated by a single newline, so it's a separate line in the 
 (Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use MD's two-space line breaks.)
  
 <a name="videos"/>
-## Youtube videos
+> ## Youtube videos
  
 They can't be added directly but you can add an image with a link to the video like this:
  
