@@ -1,6 +1,10 @@
-# Introduction
+# INTRODUCTION
 
 This is a cheatsheet for Github-style Markdown, containing syntax and examples. Markdown is originally by John Gruber, and you should read his [original specification](http://daringfireball.net/projects/markdown/). Markdown is ubiquitous at the time of this writing, and is the syntax of choice for many wikis, blogs, forums and website generator applications. Markdown allows you to enter markup in an easy-to-remember manner, for instance using asterisks for emphasis (``**text to be emphasized**``) or pound-signs in front of headers (``### An H3 Header``).  
+
+**Request**
+
+Please _don't edit this page_. Rather, if you have a suggestion, fork this repository and make a pull request. 
 
 **References**
 
@@ -9,32 +13,25 @@ This is a cheatsheet for Github-style Markdown, containing syntax and examples. 
 * Repositories from [dvidsilva](https://github.com/dvidsilva/MarkdownReference) and [adam-p](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 * Adam Pritchard's [Markdown Here](http://www.markdown-here.com/livedemo.html) demo site, where you can experiment in a kind of "sandbox" environment. 
 
-**Request**
-
-Please _don't edit this page_. Rather, if you have a suggestion, fork and make a pull request. 
-
 ## Table of Contents
 
-###### [Headers](#headers)  
-###### [Emphasis](#emphasis)  
-###### [Lists](#lists)  
-###### [Links](#links)  
-
+* [Headers](#headers)  
+* [Emphasis](#emphasis)  
+* [Lists](#lists)  
+* [Links](#links)  
 * [Images](#images)  
 * [Code and Syntax Highlighting](#code)  
 * [Tables](#tables)  
 * [Blockquotes](#blockquotes)  
+* [Inline HTML](#html)  
+* [Horizontal Rule](#hr)  
+* [Line Breaks](#linebreaks)  
+* [Youtube videos](#videos) 
 
-[Inline HTML](#html)  
-[Horizontal Rule](#hr)  
-[Line Breaks](#linebreaks)  
-[Youtube videos](#videos) 
-
-# Markdown Reference & Showcase
+# MARKDOWN REFERENCE & SHOWCASE
  
 <a name="headers"/>
-> **HEADERS**
-
+> ## Headers ##
  
 ```no-highlight
 # H1
