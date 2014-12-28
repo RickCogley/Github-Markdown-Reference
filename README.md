@@ -9,6 +9,8 @@ MarkdownReference
 Short reference and introduction to markdown. Taken and expanded from https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 https://github.com/dvidsilva/MarkdownReference
+https://help.github.com/articles/writing-on-github
+https://help.github.com/articles/github-flavored-markdown
 
 
 This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/).
@@ -356,7 +358,7 @@ ___
 Underscores
  
 <a name="lines"/>
-## [](Line Breaks "linebreaks")
+## [][Line Breaks]
  
 My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend. 
  
