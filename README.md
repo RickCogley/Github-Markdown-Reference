@@ -31,39 +31,60 @@ Please _don't edit this page_. Rather, if you have a suggestion, fork this repos
 # MARKDOWN REFERENCE & SHOWCASE
  
 <a name="headers"/>
-> ## Headers ##
+> ## Headers & Body Text
  
+To insert header tags (e.g. ``<h3></h3>``) use hash marks followed by the text for the header (``# My H1 Header`` or ``#### My H4 Header``). Don't forget a space after the hash, and leave a carriage return between the header and the body text (you might have to vary this depending upon the site). 
+
+> ### Syntax
+
 ```no-highlight
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
- 
-Alternatively, for H1 and H2, an underline-ish style:
- 
-Alt-H1
+# H1 Header
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+## H2 Header
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+### H3 Header
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+#### H4 Header
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+##### H5 Header
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+###### H6 Header
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+Alternative styles: 
+# H1 Header with Closing Hash Characters #
+## H2 Header with Closing Hash Characters ##
+### H3 Header with Closing Hash Characters ###
+and so on.
+
+H1 Header Alternative "Underline" Style
 ======
- 
-Alt-H2
+
+H2 Header Alternative "Underline" Style
 ------
 ```
  
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
- 
-Alternatively, for H1 and H2, an underline-ish style:
- 
-Alt-H1
-======
- 
-Alt-H2
-------
+> ### Showcase
+
+#### H4 Header
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+##### H5 Header
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+##### H5 Header
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
  
 <a name="emphasis"/>
 > ## Emphasis
