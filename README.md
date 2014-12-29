@@ -1,6 +1,8 @@
 # INTRODUCTION
 
-This is a cheatsheet for Github-style Markdown, containing syntax and examples. Markdown is originally by John Gruber, and you should read his [original specification](http://daringfireball.net/projects/markdown/). Markdown is ubiquitous at the time of this writing, and is the syntax of choice for many wikis, blogs, forums and website generator applications. Markdown allows you to enter markup in an easy-to-remember manner, for instance using asterisks for emphasis (``**text to be emphasized**``) or pound-signs in front of headers (``### An H3 Header``), and it then takes care of the conversion to HTML markup in in the background.   
+This is a cheatsheet for Markdown, including GFM or "Github Flavored Markdown" as Github calls it, containing syntax and examples. 
+
+Markdown is originally by John Gruber, and you should read his [original specification](http://daringfireball.net/projects/markdown/). Markdown is ubiquitous at the time of this writing, and is the syntax of choice for many wikis, blogs, forums and website generator applications. Markdown allows you to enter markup in an easy-to-remember manner, for instance using asterisks for emphasis (``**text to be emphasized**``) or pound-signs in front of headers (``### An H3 Header``), and it then takes care of the conversion to HTML markup in in the background.   
 
 **Request**
 
@@ -38,7 +40,7 @@ To insert header tags (e.g. ``<h3></h3>``) use hash marks followed by the text f
 
 ### :octocat: Github Style
 
-Github treats line breaks in a different way from normal Markdown, treating a single line break (press of the enter key) as a real line break, which is likely what most people intend. The regular Markdown treatment is to require two line breaks between paragraphs, and that takes a bunch of getting used to. 
+GFM treats line breaks in a different way from normal Markdown, treating a single line break (press of the enter key) as a real line break, which is likely what most people intend. The regular Markdown treatment is to require two line breaks between paragraphs, and that takes a bunch of getting used to. 
 
 ### :white_check_mark: Syntax
 
@@ -97,25 +99,27 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
  
 Add "emphasis" using asterisks (``_my italics_``) or underscores (``*my italics*``), and "strong emphasis" using double asterisks or underscores (``__my bold face__`` or ``**my bold fact**``). Emphasis gets converted to html ``<em></em>`` tags and strong emphasis to ``<strong></strong>`` tags. This style of markup is semantic (meaning it is meaningful in terms of the structure of the document) and not just cosmetic, and it's where the names of the tags come from. 
 
+### :octocat: Github Style
+
+GFM adds strikethrough to Markdown using double tildes (``~~text to strike~~``) surrounding the text, which equates to html del tags (``<del>text to strike</del>``). GFM also gracefully handles the situation when words contain underscores, as in software development (``some_code_variable``). Furthermore, GFM allows you to emphasize part of a word using asterisks. 
+
 ### :white_check_mark: Syntax
 
 ```no-highlight
-Emphasis, aka italics, with *asterisks* or _underscores_.
- 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
- 
-Combined emphasis with **asterisks and _underscores_**.
- 
-Strikethrough uses two tildes. ~~Scratch this.~~
+Semantic emphasis, via *asterisks* or _underscores_. Renders as italics.
+Semantic strong emphasis, via double **asterisks** or __underscores__. Renders as bold.
+Combine emphasis via **asterisks and _underscores_**.
+Strike mistaken text using two tildes. ~~Scratch this.~~
+Emphasize parts of words using asterisks. You say to*MAH*toe, I say to*MAY*toe. 
 ```
  
-Emphasis, aka italics, with *asterisks* or _underscores_.
- 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
- 
-Combined emphasis with **asterisks and _underscores_**.
- 
-Strikethrough uses two tildes. ~~Scratch this.~~
+### :diamond_shape_with_a_dot_inside: Showcase
+
+Semantic emphasis, via *asterisks* or _underscores_. Renders as italics.
+Semantic strong emphasis, via double **asterisks** or __underscores__. Renders as bold.
+Combine emphasis via **asterisks and _underscores_**.
+Strike mistaken text using two tildes. ~~Scratch this.~~
+Emphasize parts of words using asterisks. You say to*MAH*toe, I say to*MAY*toe.
  
 * * *  
 <a name="lists"/>
