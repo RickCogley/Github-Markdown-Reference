@@ -36,6 +36,10 @@ Please _don't edit this page_. Rather, if you have a suggestion, fork this repos
  
 To insert header tags (e.g. ``<h3></h3>``) use hash marks followed by the text for the header (``# My H1 Header`` or ``#### My H4 Header``). Don't forget a space after the hash, and leave a carriage return between the header and the body text (you might have to vary this depending upon the site). 
 
+### :octocat: Github Style
+
+Github treats line breaks in a different way from normal Markdown, treating a single line break (press of the enter key) as a real line break, which is likely what most people intend. The regular Markdown treatment is to require two line breaks between paragraphs, and that takes a bunch of getting used to. 
+
 ### :white_check_mark: Syntax
 
 ```no-highlight
@@ -86,10 +90,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ##### H5 Header
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
- 
-### :octocat: Github Style
-
-Github treats line breaks in a different way from normal Markdown, treating a single line break (press of the enter key) as a real line break, which is likely what most people intend. The regular Markdown treatment is to require two line breaks between paragraphs, and that takes a bunch of getting used to. 
  
 * * * 
 <a name="emphasis"/>
