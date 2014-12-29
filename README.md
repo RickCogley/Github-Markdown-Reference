@@ -136,6 +136,11 @@ Emphasize parts of words using asterisks. You say to*mah*toe, I say to*may*toe.
 Blah blah (``sample``) blah.
 (In this example, leading and trailing spaces are shown with with dots: ⋅)
 
+### :octocat: Github Style
+
+GFM allows checklists
+Notes have special
+
 ### :white_check_mark: Syntax
  
 ```no-highlight
@@ -173,6 +178,19 @@ Blah blah (``sample``) blah.
 * Unordered list can use asterisks
 - Or minuses
 + Or pluses
+
+
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> are supported
+- [x] list syntax is required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+- [ ] a bigger project
+  - [ ] first subtask #1234
+  - [ ] follow up subtask #4321
+  - [ ] final subtask cc @mention
+- [ ] a separate task
 
 * * *  
 <a name="links"/>
