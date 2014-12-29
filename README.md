@@ -87,15 +87,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ##### H5 Header
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
  
-### In Github Markdown... :octocat:
+### :octocat: In Github Markdown...
 
-Github treats line breaks in a different way from normal Markdown, treating a single line break (press of the enter key) as a real line break, which is likely what most people intend. The regular Markdown treatment is to require two line breaks between paragraphs. 
+Github treats line breaks in a different way from normal Markdown, treating a single line break (press of the enter key) as a real line break, which is likely what most people intend. The regular Markdown treatment is to require two line breaks between paragraphs, and that takes a bunch of getting used to. 
  
 * * * 
 <a name="emphasis"/>
 > ## Emphasis
  
-Blah blah (``sample``) blah.
+Add "emphasis" using asterisks (``_my italics_``) or underscores (``*my italics*``), and "strong emphasis" using double asterisks or underscores (``__my bold face__`` or ``**my bold fact**``). Emphasis gets converted to html ``<em></em>`` tags and strong emphasis to ``<strong></strong>`` tags.
 
 ### :white_check_mark: Syntax
 
