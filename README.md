@@ -107,19 +107,27 @@ GFM adds strikethrough to Markdown using double tildes (``~~text to strike~~``) 
 
 ```no-highlight
 Semantic emphasis, via *asterisks* or _underscores_. Renders as italics.
+
 Semantic strong emphasis, via double **asterisks** or __underscores__. Renders as bold.
+
 Combine emphasis via **asterisks and _underscores_**.
+
 Strike mistaken text using two tildes. ~~Scratch this.~~
+
 Emphasize parts of words using asterisks. You say to*MAH*toe, I say to*MAY*toe. 
 ```
  
 ### :diamond_shape_with_a_dot_inside: Showcase
 
 Semantic emphasis, via *asterisks* or _underscores_. Renders as italics.
+
 Semantic strong emphasis, via double **asterisks** or __underscores__. Renders as bold.
+
 Combine emphasis via **asterisks and _underscores_**.
+
 Strike mistaken text using two tildes. ~~Scratch this.~~
-Emphasize parts of words using asterisks. You say to*MAH*toe, I say to*MAY*toe.
+
+Emphasize parts of words using asterisks. You say to*mah*toe, I say to*may*toe.
  
 * * *  
 <a name="lists"/>
