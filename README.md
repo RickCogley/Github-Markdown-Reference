@@ -87,10 +87,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ##### H5 Header
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
  
+### In Github Markdown... :octocat:
+
+Github treats line breaks in a different way from normal Markdown, treating a single line break (press of the enter key) as a real line break, which is likely what most people intend. The regular Markdown treatment is to require two line breaks between paragraphs. 
+ 
 * * * 
 <a name="emphasis"/>
 > ## Emphasis
  
+Blah blah (``sample``) blah.
+
+### :white_check_mark: Syntax
+
 ```no-highlight
 Emphasis, aka italics, with *asterisks* or _underscores_.
  
@@ -113,7 +121,10 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 <a name="lists"/>
 > ## Lists
  
+Blah blah (``sample``) blah.
 (In this example, leading and trailing spaces are shown with with dots: ⋅)
+
+### :white_check_mark: Syntax
  
 ```no-highlight
 1. First ordered list item
@@ -155,7 +166,9 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 <a name="links"/>
 > ## Links
  
-There are two ways to create links.
+Blah blah (``sample``) blah. There are two ways to create links.
+
+### :white_check_mark: Syntax
  
 ```no-highlight
 [I'm an inline-style link](https://www.google.com)
@@ -198,6 +211,10 @@ Some text to show that the reference links can follow later.
 * * *  
 <a name="images"/>
 > ## Images
+
+Blah blah (``sample``) blah.
+
+### :white_check_mark: Syntax
  
 ```no-highlight
 Here's our logo (hover to see the title text):
@@ -226,6 +243,10 @@ Reference-style:
 > ## Code and Syntax Highlighting
  
 Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
+
+Blah blah (``sample``) blah.
+
+### :white_check_mark: Syntax
  
 ```no-highlight
 Inline `code` has `back-ticks around` it.
@@ -273,6 +294,10 @@ But let's throw in a <b>tag</b>.
 > ## Tables
  
 Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
+
+Blah blah (``sample``) blah.
+
+### :white_check_mark: :octocat: Syntax
  
 ```no-highlight
 Colons can be used to align columns.
@@ -328,8 +353,12 @@ Quote break.
  
 <a name="html"/>
 > ## Inline HTML
- 
+
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well. 
+
+Blah blah (``sample``) blah.
+
+### :white_check_mark: Syntax
  
 ```no-highlight
 <dl>
@@ -352,6 +381,10 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 * * *  
 <a name="hr"/>
 > ## Horizontal Rule
+
+Blah blah (``sample``) blah.
+
+### :white_check_mark: Syntax
  
 ```
 Three or more...
@@ -386,6 +419,10 @@ Underscores
 * * *  
 <a name="linebreaks"/>
 > ## Line Breaks
+
+Blah blah (``sample``) blah.
+
+### :white_check_mark: Syntax
  
 My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend. 
  
