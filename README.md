@@ -95,7 +95,7 @@ Github treats line breaks in a different way from normal Markdown, treating a si
 <a name="emphasis"/>
 > ## Emphasis
  
-Add "emphasis" using asterisks (``_my italics_``) or underscores (``*my italics*``), and "strong emphasis" using double asterisks or underscores (``__my bold face__`` or ``**my bold fact**``). Emphasis gets converted to html ``<em></em>`` tags and strong emphasis to ``<strong></strong>`` tags.
+Add "emphasis" using asterisks (``_my italics_``) or underscores (``*my italics*``), and "strong emphasis" using double asterisks or underscores (``__my bold face__`` or ``**my bold fact**``). Emphasis gets converted to html ``<em></em>`` tags and strong emphasis to ``<strong></strong>`` tags. This style of markup is semantic (meaning it is meaningful in terms of the structure of the document) and not just cosmetic, and it's where the names of the tags come from. 
 
 ### :white_check_mark: Syntax
 
