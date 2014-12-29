@@ -1,96 +1,147 @@
-Github-Markdown-Reference
-=========================
+# INTRODUCTION
 
-A reference for Github-flavored Markdown syntax. 
+This is a cheatsheet for Markdown, including GFM or "Github Flavored Markdown" as Github calls it, containing syntax and examples. 
 
-MarkdownReference
-=================
+Markdown is originally by John Gruber, and you should read his [original specification](http://daringfireball.net/projects/markdown/). Markdown is ubiquitous at the time of this writing, and is the syntax of choice for many wikis, blogs, forums and website generator applications. Markdown allows you to enter markup in an easy-to-remember manner, for instance using asterisks for emphasis (``**text to be emphasized**``) or pound-signs in front of headers (``### An H3 Header``), and it then takes care of the conversion to HTML markup in in the background.   
 
-Short reference and introduction to markdown. Taken and expanded from https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+**Request**
 
-https://github.com/dvidsilva/MarkdownReference
+Please _don't edit this page_. Rather, if you have a suggestion, fork this repository and make a pull request. 
 
+**References**
 
-This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/).
- 
- 
-PLEASE DO NOT EDIT THIS PAGE! You can play around with Markdown on our [live demo page](http://www.markdown-here.com/livedemo.html).
- 
-##### Table of Contents  
-[Headers](#headers)  
-[Emphasis](#emphasis)  
-[Lists](#lists)  
-[Links](#links)  
-[Images](#images)  
-[Code and Syntax Highlighting](#code)  
-[Tables](#tables)  
-[Blockquotes](#blockquotes)  
-[Inline HTML](#html)  
-[Horizontal Rule](#hr)  
-[Line Breaks](#lines)  
-[Youtube videos](#videos)  
+* [Markdown specification](http://daringfireball.net/projects/markdown/) by John Gruber.
+* Github Help Documentation on [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) and [Writing on Github](https://help.github.com/articles/writing-on-github). 
+* Repositories regarding Markdown syntax from [dvidsilva](https://github.com/dvidsilva/MarkdownReference) and [adam-p](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+* Adam Pritchard's [Markdown Here](http://www.markdown-here.com/livedemo.html) demo site, where you can experiment in a kind of "sandbox" environment. 
+* Github includes the emoji from [The Emoji Cheatsheet](http://www.emoji-cheat-sheet.com).
+
+## Table of Contents
+
+* [Headers](#headers)  
+* [Emphasis](#emphasis)  
+* [Lists](#lists)  
+* [Links](#links)  
+* [Images](#images)  
+* [Code and Syntax Highlighting](#code)  
+* [Tables](#tables)  
+* [Blockquotes](#blockquotes)  
+* [Inline HTML](#html)  
+* [Horizontal Rule](#hr)  
+* [Line Breaks](#linebreaks)  
+* [Youtube videos](#videos) 
+
+# MARKDOWN REFERENCE & SHOWCASE
  
 <a name="headers"/>
-## Headers
+> ## Headers & Body Text
  
+To insert header tags (e.g. ``<h3></h3>``) use hash marks followed by the text for the header (``# My H1 Header`` or ``#### My H4 Header``). Don't forget a space after the hash, and leave a carriage return between the header and the body text (you might have to vary this depending upon the site). 
+
+### :octocat: Github Style
+
+GFM treats line breaks in a different way from normal Markdown, treating a single line break (press of the enter key) as a real line break, which is likely what most people intend. The regular Markdown treatment is to require two line breaks between paragraphs, and that takes a bunch of getting used to. 
+
+### :white_check_mark: Syntax
+
 ```no-highlight
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
- 
-Alternatively, for H1 and H2, an underline-ish style:
- 
-Alt-H1
+# H1 Header
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+## H2 Header
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+### H3 Header
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+#### H4 Header
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+##### H5 Header
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+###### H6 Header
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+Alternative styles: 
+# H1 Header with Closing Hash Characters #
+## H2 Header with Closing Hash Characters ##
+### H3 Header with Closing Hash Characters ###
+and so on.
+
+H1 Header Alternative "Underline" Style
 ======
- 
-Alt-H2
+
+H2 Header Alternative "Underline" Style
 ------
 ```
  
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+### :diamond_shape_with_a_dot_inside: Showcase
+
+#### H4 Header
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+##### H5 Header
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+##### H5 Header
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
  
-Alternatively, for H1 and H2, an underline-ish style:
- 
-Alt-H1
-======
- 
-Alt-H2
-------
- 
+* * * 
 <a name="emphasis"/>
-## Emphasis
+> ## Emphasis
  
+Add "emphasis" using asterisks (``_my italics_``) or underscores (``*my italics*``), and "strong emphasis" using double asterisks or underscores (``__my bold face__`` or ``**my bold fact**``). Emphasis gets converted to html ``<em></em>`` tags and strong emphasis to ``<strong></strong>`` tags. This style of markup is semantic (meaning it is meaningful in terms of the structure of the document) and not just cosmetic, and it's where the names of the tags come from. 
+
+### :octocat: Github Style
+
+GFM adds strikethrough to Markdown using double tildes (``~~text to strike~~``) surrounding the text, which equates to html del tags (``<del>text to strike</del>``). GFM also gracefully handles the situation when words contain underscores, as in software development (``some_code_variable``). Furthermore, GFM allows you to emphasize part of a word using asterisks. 
+
+### :white_check_mark: Syntax
+
 ```no-highlight
-Emphasis, aka italics, with *asterisks* or _underscores_.
- 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
- 
-Combined emphasis with **asterisks and _underscores_**.
- 
-Strikethrough uses two tildes. ~~Scratch this.~~
+Semantic emphasis, via *asterisks* or _underscores_. Renders as italics.
+
+Semantic strong emphasis, via double **asterisks** or __underscores__. Renders as bold.
+
+Combine emphasis via **asterisks and _underscores_**.
+
+Strike mistaken text using two tildes. ~~Scratch this.~~
+
+Emphasize parts of words using asterisks. You say to*MAH*toe, I say to*MAY*toe. 
 ```
  
-Emphasis, aka italics, with *asterisks* or _underscores_.
+### :diamond_shape_with_a_dot_inside: Showcase
+
+Semantic emphasis, via *asterisks* or _underscores_. Renders as italics.
+
+Semantic strong emphasis, via double **asterisks** or __underscores__. Renders as bold.
+
+Combine emphasis via **asterisks and _underscores_**.
+
+Strike mistaken text using two tildes. ~~Scratch this.~~
+
+Emphasize parts of words using asterisks. You say to*mah*toe, I say to*may*toe.
  
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
- 
-Combined emphasis with **asterisks and _underscores_**.
- 
-Strikethrough uses two tildes. ~~Scratch this.~~
- 
- 
+* * *  
 <a name="lists"/>
-## Lists
+> ## Lists
  
+Blah blah (``sample``) blah.
 (In this example, leading and trailing spaces are shown with with dots: ⋅)
+
+### :octocat: Github Style
+
+GFM allows checklists
+Notes have special
+
+### :white_check_mark: Syntax
  
 ```no-highlight
 1. First ordered list item
@@ -127,11 +178,16 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 * Unordered list can use asterisks
 - Or minuses
 + Or pluses
- 
+
+
+
+* * *  
 <a name="links"/>
-## Links
+> ## Links
  
-There are two ways to create links.
+Blah blah (``sample``) blah. There are two ways to create links.
+
+### :white_check_mark: Syntax
  
 ```no-highlight
 [I'm an inline-style link](https://www.google.com)
@@ -170,9 +226,14 @@ Some text to show that the reference links can follow later.
 [arbitrary case-insensitive reference text]: https://www.mozilla.org
 [1]: http://slashdot.org
 [link text itself]: http://www.reddit.com
- 
+
+* * *  
 <a name="images"/>
-## Images
+> ## Images
+
+Blah blah (``sample``) blah.
+
+### :white_check_mark: Syntax
  
 ```no-highlight
 Here's our logo (hover to see the title text):
@@ -195,11 +256,16 @@ Reference-style:
 ![alt text][logo]
  
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
- 
+
+* * *  
 <a name="code"/>
-## Code and Syntax Highlighting
+> ## Code and Syntax Highlighting
  
 Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
+
+Blah blah (``sample``) blah.
+
+### :white_check_mark: Syntax
  
 ```no-highlight
 Inline `code` has `back-ticks around` it.
@@ -242,11 +308,15 @@ No language indicated, so no syntax highlighting in Markdown Here (varies on Git
 But let's throw in a <b>tag</b>.
 ```
  
- 
+* * *  
 <a name="tables"/>
-## Tables
+> ## Tables
  
 Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
+
+Blah blah (``sample``) blah.
+
+### :white_check_mark: :octocat: Syntax
  
 ```no-highlight
 Colons can be used to align columns.
@@ -279,9 +349,10 @@ Markdown | Less | Pretty
 --- | --- | ---
 *Still* | `renders` | **nicely**
 1 | 2 | 3
- 
+
+* * *  
 <a name="blockquotes"/>
-## Blockquotes
+> ## Blockquotes
  
 ```no-highlight
 > Blockquotes are very handy in email to emulate reply text.
@@ -300,9 +371,13 @@ Quote break.
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
  
 <a name="html"/>
-## Inline HTML
- 
+> ## Inline HTML
+
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well. 
+
+Blah blah (``sample``) blah.
+
+### :white_check_mark: Syntax
  
 ```no-highlight
 <dl>
@@ -321,9 +396,14 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
   <dt>Markdown in HTML</dt>
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
- 
+
+* * *  
 <a name="hr"/>
-## Horizontal Rule
+> ## Horizontal Rule
+
+Blah blah (``sample``) blah.
+
+### :white_check_mark: Syntax
  
 ```
 Three or more...
@@ -354,9 +434,14 @@ Asterisks
 ___
  
 Underscores
- 
-<a name="lines"/>
-## Line Breaks
+
+* * *  
+<a name="linebreaks"/>
+> ## Line Breaks
+
+Blah blah (``sample``) blah.
+
+### :white_check_mark: Syntax
  
 My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend. 
  
@@ -379,11 +464,12 @@ This line is also begins a separate paragraph, but...
 This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
  
 (Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use MD's two-space line breaks.)
+
+* * *  
+<a name="embed"/>
+> ## HTML Embeds
  
-<a name="videos"/>
-## Youtube videos
- 
-They can't be added directly but you can add an image with a link to the video like this:
+Youtube videos have an embed code (an html iframe) which is accessible from Share, Embed on the video page. They can't be added directly but you can add an image with a link to the video like this:
  
 ```no-highlight
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
@@ -396,6 +482,9 @@ Or, in pure Markdown, but losing the image sizing and border:
 ```no-highlight
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 ```
+
+[![Bazaar at Shinbashi Tokyo, by Rick Cogley](http://img.youtube.com/vi/ibhHk0CCYXA/0.jpg)](http://www.youtube.com/watch?v=ibhHk0CCYXA)
  
+
 Referencing a bug by #bugID in your git commit links it to the slip. For example #1. 
 
