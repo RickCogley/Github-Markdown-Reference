@@ -76,7 +76,7 @@ H2 Header Alternative "Underline" Style
 ------
 ```
  
-### :white_check_mark: Showcase
+### :diamond_shape_with_a_dot_inside: Showcase
 
 #### H4 Header
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
