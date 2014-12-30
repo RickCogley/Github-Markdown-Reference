@@ -166,7 +166,7 @@ GFM checklists also support automatic linking to users and issues, simply by ins
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
-(In this example, leading and trailing spaces are shown with with dots: •)
+Necessary leading and trailing spaces are indicated with dots: ••
 
 ```no-highlight
 1. **Experimental Method**
