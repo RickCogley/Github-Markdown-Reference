@@ -45,16 +45,17 @@ GFM treats line breaks in a different way from normal Markdown, treating a singl
 In other words, in GFM just enter naturally:
 
 ```no-highlight
-Say NO to Drugs&#182;
-From your local police dep't.&#182;
+Say NO to Drugs¶
+From your local police dep't.¶
 ```
 
 ... as opposed to having to enter: 
 
 ```no-highlight
-Say NO to Drugs&#176;&#176;&#182;
-From your local police dep't.&#176;&#176;&#182;
+Say NO to Drugs  ¶
+From your local police dep't.  ¶
 ```
+
 
 ### :white_check_mark: Syntax
 
