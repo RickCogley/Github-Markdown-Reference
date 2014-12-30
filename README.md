@@ -156,7 +156,7 @@ In Markdown, ordered lists (numbered, ``<ol>`` tag) are created using numbers fo
 
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
-GFM lists support a "checklist" style, that can be dynamically ticked off like a todo list, without editing the Markdown document. Checklists look like ``- [ ] the item`` or ``- [x] the item``. If you add a checklist in a Github Issue (in the top, initial entry, not the replies), you will see a progress bar in your issues list. Sweet!
+GFM lists support a "checklist" style, that can be dynamically ticked off like a todo list _in the case of Issues_, without editing the issue. Checklists look like ``- [ ] the item`` or ``- [x] the item``. If you add a checklist in a Github Issue (in the top, initial entry, not the replies), you will see a progress bar in your issues list. Sweet! In the case of ``.md`` files like this one, checklists are static, but you can still edit the file, and add and x between the square brackets. 
 
 GFM checklists also support automatic linking to users and issues, simply by inserting @username or #1 where 1 is the issue number. 
 
