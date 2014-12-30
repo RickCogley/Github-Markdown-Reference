@@ -163,6 +163,21 @@ GFM lists support a "checklist" style, that can be dynamically ticked off like a
 (In this example, leading and trailing spaces are shown with with dots: •)
 
 ```no-highlight
+1. Experimental Method
+••1. Ask questions about a natural phenomenon
+••1. Make observations about the phenomenon
+••1. Form a hypothesis, or proposed explanation.
+••1. Predict logical consequences of the hypothesis. 
+••1. Methodically test the hypothesis to verify or falsify, via three types of experiment:
+••••* Controlled 
+••••* Natural
+••••* Field
+••1. Gather and analyze experimental data, including uncertainty.
+••1. Draw conclusions, comparing data with predictions. 
+1. Empirical Method
+••* etc
+
+
 1. First ordered list item
 1. Another item
 ••* Unordered sub-list. 
@@ -181,6 +196,20 @@ GFM lists support a "checklist" style, that can be dynamically ticked off like a
 + Or pluses
 ```
  
+1. Experimental Method
+  1. Ask questions about a natural phenomenon
+  1. Make observations about the phenomenon
+  1. Form a hypothesis, or proposed explanation.
+  1. Predict logical consequences of the hypothesis. 
+  1. Methodically test the hypothesis to verify or falsify, via three types of experiment:
+    * Controlled 
+    * Natural
+    * Field
+  1. Gather and analyze experimental data, including uncertainty.
+  1. Draw conclusions, comparing data with predictions. 
+1. Empirical Method
+  * etc
+
 1. First ordered list item
 1. Another item
   * Unordered sub-list. 
