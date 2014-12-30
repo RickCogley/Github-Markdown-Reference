@@ -488,3 +488,4 @@ Or, in pure Markdown, but losing the image sizing and border:
 
 Referencing a bug by #bugID in your git commit links it to the slip. For example #1. 
 
+Other - you can just stick an entity in. Like &#182;
