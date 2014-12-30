@@ -11,9 +11,12 @@ Please _don't edit this page_. Rather, if you have a suggestion, fork this repos
 **References**
 
 * [Markdown specification](http://daringfireball.net/projects/markdown/) by John Gruber.
-* Github Help Documentation on [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) and [Writing on Github](https://help.github.com/articles/writing-on-github). 
+* Github Help Documentation on "GFM": 
+  * [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown)
+  * [Writing on Github](https://help.github.com/articles/writing-on-github)
+  * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 * Repositories regarding Markdown syntax from [dvidsilva](https://github.com/dvidsilva/MarkdownReference) and [adam-p](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-* Adam Pritchard's [Markdown Here](http://www.markdown-here.com/livedemo.html) demo site, where you can experiment in a kind of "sandbox" environment. 
+* Adam Pritchard's [Markdown Here](http://www.markdown-here.com/livedemo.html) or the  [Markdown-it](https://markdown-it.github.io) demo sites, where you can experiment in a kind of "sandbox" environment. 
 * Github includes the emoji from [The Emoji Cheatsheet](http://www.emoji-cheat-sheet.com).
 
 ## Table of Contents
@@ -29,7 +32,7 @@ Please _don't edit this page_. Rather, if you have a suggestion, fork this repos
 * [Inline HTML](#html)  
 * [Horizontal Rule](#hr)  
 * [Line Breaks](#linebreaks)  
-* [Youtube videos](#videos) 
+* [HTML embeds](#embeds) 
 
 # MARKDOWN REFERENCE & SHOWCASE
  
@@ -38,11 +41,27 @@ Please _don't edit this page_. Rather, if you have a suggestion, fork this repos
  
 To insert header tags (e.g. ``<h3></h3>``) use hash marks followed by the text for the header (``# My H1 Header`` or ``#### My H4 Header``). Don't forget a space after the hash, and leave a carriage return between the header and the body text (you might have to vary this depending upon the site). 
 
-### :octocat: Github Style
+### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
-GFM treats line breaks in a different way from normal Markdown, treating a single line break (press of the enter key) as a real line break, which is likely what most people intend. The regular Markdown treatment is to require two line breaks between paragraphs, and that takes a bunch of getting used to. 
+GFM treats line breaks in a different way from normal Markdown, treating a single press of the enter key as a line break (``<br>``), which is likely what most people intend. The regular Markdown treatment is to require two spaces after a line to add a break, which is rather counterintuitive if you do not know the trick. 
 
-### :white_check_mark: Syntax
+In other words, in GFM just enter naturally:
+
+```no-highlight
+Say NO to Drugs¶  
+From your local police dep't.¶
+```
+
+... as opposed to having to enter two spaces (represented by •): 
+
+```no-highlight
+Say NO to Drugs••¶  
+From your local police dep't.••¶
+```
+
+**N.b.** - _as of 30 Dec 2014 it appears you **do** need to add the two spaces to force a_ ``<br>``.
+
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
 
 ```no-highlight
 # H1 Header
@@ -82,7 +101,7 @@ H2 Header Alternative "Underline" Style
 ------
 ```
  
-### :diamond_shape_with_a_dot_inside: Showcase
+### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
 #### H4 Header
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -99,11 +118,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
  
 Add "emphasis" using asterisks (``_my italics_``) or underscores (``*my italics*``), and "strong emphasis" using double asterisks or underscores (``__my bold face__`` or ``**my bold fact**``). Emphasis gets converted to html ``<em></em>`` tags and strong emphasis to ``<strong></strong>`` tags. This style of markup is semantic (meaning it is meaningful in terms of the structure of the document) and not just cosmetic, and it's where the names of the tags come from. 
 
-### :octocat: Github Style
+### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
 GFM adds strikethrough to Markdown using double tildes (``~~text to strike~~``) surrounding the text, which equates to html del tags (``<del>text to strike</del>``). GFM also gracefully handles the situation when words contain underscores, as in software development (``some_code_variable``). Furthermore, GFM allows you to emphasize part of a word using asterisks. 
 
-### :white_check_mark: Syntax
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
 
 ```no-highlight
 Semantic emphasis, via *asterisks* or _underscores_. Renders as italics.
@@ -117,7 +136,7 @@ Strike mistaken text using two tildes. ~~Scratch this.~~
 Emphasize parts of words using asterisks. You say to*MAH*toe, I say to*MAY*toe. 
 ```
  
-### :diamond_shape_with_a_dot_inside: Showcase
+### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
 Semantic emphasis, via *asterisks* or _underscores_. Renders as italics.
 
@@ -133,53 +152,69 @@ Emphasize parts of words using asterisks. You say to*mah*toe, I say to*may*toe.
 <a name="lists"/>
 > ## Lists
  
-Blah blah (``sample``) blah.
-(In this example, leading and trailing spaces are shown with with dots: ⋅)
+In Markdown, ordered lists (numbered, ``<ol>`` tag) are created using numbers followed by a period and space, then the list item. Unordered lists (bulleted, ``<ul>`` tag) are created using asterisks, pluses or hyphens, followed by a space, then the list item. You can indent any list item following the first item, to create a nested list, and you can combine list types. 
 
-### :octocat: Github Style
+### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
-GFM allows checklists
-Notes have special
+GFM lists support a "checklist" style, that can be dynamically ticked off like a todo list _in the case of Issues_, without editing the issue. Checklists look like ``- [ ] the item`` or ``- [x] the item``. If you add a checklist in a Github Issue (in the top, initial entry, not the replies), you will see a progress bar in your issues list. Sweet! In the case of ``.md`` files like this one, checklists are static, but you can still edit the file, and add and x between the square brackets. 
 
-### :white_check_mark: Syntax
+GFM checklists also support automatic linking to users and issues, simply by inserting @username or #1 where 1 is the issue number. 
+
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
+(In this example, leading and trailing spaces are shown with with dots: •)
+
 ```no-highlight
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
- 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
- 
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
- 
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+1. **Experimental Method**
+••1. Ask questions about a natural phenomenon
+••1. Make observations about the phenomenon
+••1. Form a hypothesis, or proposed explanation.
+••1. Predict logical consequences of the hypothesis. 
+••1. Methodically test the hypothesis to verify or falsify, via three types of experiment:
+••••* Controlled 
+••••* Natural
+••••* Field
+••1. Gather and analyze experimental data, including uncertainty.
+••1. Draw conclusions, comparing data with predictions. 
+
+•••To intersperse text within your list, indent at least one leading space, and enough to align to your liking. This text block is a paragraph, and has blank lines above and below. 
+
+•••You can also insert text on separate lines using line breaks. Use two trailing spaces to achieve this.••
+•••Then indent again, and follow with two trailing spaces again, as in this line.••
+
+1. **Empirical Method**
+••* etc
+
+#### To-do List In an Issue
+- [x] @RickCogley Work on issue #2. 
+- [ ] @anothergithubuser Work on issue #3. 
 ```
- 
-1. First ordered list item
-2. Another item
-  * Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-  1. Ordered sub-list
-4. And another item.
- 
-   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
- 
-   To have a line break without a paragraph, you will need to use two trailing spaces.  
-   Note that this line is separate, but within the same paragraph.  
-   (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
- 
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
 
+### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
+ 
+1. **Experimental Method**
+  1. Ask questions about a natural phenomenon
+  1. Make observations about the phenomenon
+  1. Form a hypothesis, or proposed explanation.
+  1. Predict logical consequences of the hypothesis. 
+  1. Methodically test the hypothesis to verify or falsify, via three types of experiment:
+    * Controlled 
+    * Natural
+    * Field
+  1. Gather and analyze experimental data, including uncertainty.
+  1. Draw conclusions, comparing data with predictions. 
 
+   To intersperse text within your list, indent at least one leading space, and enough to align to your liking. This text block is a paragraph, and has blank lines above and below.
+
+   You can also insert text on separate lines using line breaks. Use two trailing spaces to achieve this.  
+   Then indent again, and follow with two trailing spaces again, as in this line.  
+
+1. **Empirical Method**
+  * etc
+
+#### To-do List in an Issue
+- [x] @RickCogley Work on issue #2. 
+- [ ] @anothergithubuser Work on issue #3. 
 
 * * *  
 <a name="links"/>
@@ -187,7 +222,7 @@ Notes have special
  
 Blah blah (``sample``) blah. There are two ways to create links.
 
-### :white_check_mark: Syntax
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 ```no-highlight
 [I'm an inline-style link](https://www.google.com)
@@ -233,7 +268,7 @@ Some text to show that the reference links can follow later.
 
 Blah blah (``sample``) blah.
 
-### :white_check_mark: Syntax
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 ```no-highlight
 Here's our logo (hover to see the title text):
@@ -265,7 +300,7 @@ Code blocks are part of the Markdown spec, but syntax highlighting isn't. Howeve
 
 Blah blah (``sample``) blah.
 
-### :white_check_mark: Syntax
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 ```no-highlight
 Inline `code` has `back-ticks around` it.
@@ -316,7 +351,7 @@ Tables aren't part of the core Markdown spec, but they are part of GFM and *Mark
 
 Blah blah (``sample``) blah.
 
-### :white_check_mark: :octocat: Syntax
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Syntax
  
 ```no-highlight
 Colons can be used to align columns.
@@ -377,7 +412,7 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
 Blah blah (``sample``) blah.
 
-### :white_check_mark: Syntax
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 ```no-highlight
 <dl>
@@ -403,7 +438,7 @@ Blah blah (``sample``) blah.
 
 Blah blah (``sample``) blah.
 
-### :white_check_mark: Syntax
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 ```
 Three or more...
@@ -441,7 +476,7 @@ Underscores
 
 Blah blah (``sample``) blah.
 
-### :white_check_mark: Syntax
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend. 
  
@@ -466,7 +501,7 @@ This line is only separated by a single newline, so it's a separate line in the 
 (Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use MD's two-space line breaks.)
 
 * * *  
-<a name="embed"/>
+<a name="embeds"/>
 > ## HTML Embeds
  
 Youtube videos have an embed code (an html iframe) which is accessible from Share, Embed on the video page. They can't be added directly but you can add an image with a link to the video like this:
@@ -488,3 +523,10 @@ Or, in pure Markdown, but losing the image sizing and border:
 
 Referencing a bug by #bugID in your git commit links it to the slip. For example #1. 
 
+Other - you can just stick an entity in. Like &#182;
+
+<img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle">
+
+<img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle">
+
+<img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle">
