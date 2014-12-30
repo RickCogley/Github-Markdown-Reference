@@ -32,7 +32,7 @@ Please _don't edit this page_. Rather, if you have a suggestion, fork this repos
 * [Inline HTML](#html)  
 * [Horizontal Rule](#hr)  
 * [Line Breaks](#linebreaks)  
-* [Youtube videos](#videos) 
+* [HTML embeds](#embeds) 
 
 # MARKDOWN REFERENCE & SHOWCASE
  
@@ -499,7 +499,7 @@ This line is only separated by a single newline, so it's a separate line in the 
 (Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use MD's two-space line breaks.)
 
 * * *  
-<a name="embed"/>
+<a name="embeds"/>
 > ## HTML Embeds
  
 Youtube videos have an embed code (an html iframe) which is accessible from Share, Embed on the video page. They can't be added directly but you can add an image with a link to the video like this:
