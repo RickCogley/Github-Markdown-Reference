@@ -152,29 +152,29 @@ Emphasize parts of words using asterisks. You say to*mah*toe, I say to*may*toe.
 <a name="lists"/>
 > ## Lists
  
-Blah blah (``sample``) blah.
-(In this example, leading and trailing spaces are shown with with dots: ⋅)
+In Markdown, ordered lists (numbered, ``<ol>`` tag) are created using numbers followed by a period and space, then the list item. Unordered lists (bulleted, ``<ul>`` tag) are created using asterisks, pluses or hyphens, followed by a space, then the list item. You can indent any list item following the first item, to create a nested list, and you can combine list types. 
 
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
-GFM allows checklists
-Notes have special progress bar if the checklist is at the top
+GFM lists support a "checklist" style, that can be dynamically ticked off like a todo list, without editing the Markdown document. Checklists look like ``- [ ] the item`` or ``- [x] the item``. If you add a checklist in a Github Issue (in the top, initial entry, not the replies), you will see a progress bar in your issues list. Sweet!
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
+(In this example, leading and trailing spaces are shown with with dots: •)
+
 ```no-highlight
 1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
+1. Another item
+••* Unordered sub-list. 
 1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
+••1. Ordered sub-list
+1. And another item.
  
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+•••You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
  
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+•••To have a line break without a paragraph, you will need to use two trailing spaces.••
+•••Note that this line is separate, but within the same paragraph.••
+•••(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
  
 * Unordered list can use asterisks
 - Or minuses
@@ -182,11 +182,11 @@ Notes have special progress bar if the checklist is at the top
 ```
  
 1. First ordered list item
-2. Another item
+1. Another item
   * Unordered sub-list. 
 1. Actual numbers don't matter, just that it's a number
   1. Ordered sub-list
-4. And another item.
+1. And another item.
  
    You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
  
