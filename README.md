@@ -165,7 +165,7 @@ GFM checklists also support automatic linking to users and issues, simply by ins
 (In this example, leading and trailing spaces are shown with with dots: •)
 
 ```no-highlight
-1. Experimental Method
+1. **Experimental Method**
 ••1. Ask questions about a natural phenomenon
 ••1. Make observations about the phenomenon
 ••1. Form a hypothesis, or proposed explanation.
@@ -182,15 +182,17 @@ GFM checklists also support automatic linking to users and issues, simply by ins
 •••You can also insert text on separate lines using line breaks. Use two trailing spaces to achieve this.••
 •••Then indent again, and follow with two trailing spaces again, as in this line.••
 
-1. Empirical Method
+1. **Empirical Method**
 ••* etc
 
 #### To-do List
 - [x] @somegithubuser Work on issue #1. 
 - [ ] @anothergithubuser Work on issue #2. 
 ```
+
+### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
  
-1. Experimental Method
+1. **Experimental Method**
   1. Ask questions about a natural phenomenon
   1. Make observations about the phenomenon
   1. Form a hypothesis, or proposed explanation.
@@ -207,7 +209,7 @@ GFM checklists also support automatic linking to users and issues, simply by ins
    You can also insert text on separate lines using line breaks. Use two trailing spaces to achieve this.  
    Then indent again, and follow with two trailing spaces again, as in this line.  
 
-1. Empirical Method
+1. **Empirical Method**
   * etc
 
 #### To-do List
