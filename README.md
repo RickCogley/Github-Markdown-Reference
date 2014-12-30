@@ -97,7 +97,7 @@ H2 Header Alternative "Underline" Style
 ------
 ```
  
-### :diamond_shape_with_a_dot_inside: Showcase
+### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
 #### H4 Header
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -132,7 +132,7 @@ Strike mistaken text using two tildes. ~~Scratch this.~~
 Emphasize parts of words using asterisks. You say to*MAH*toe, I say to*MAY*toe. 
 ```
  
-### :diamond_shape_with_a_dot_inside: Showcase
+### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
 Semantic emphasis, via *asterisks* or _underscores_. Renders as italics.
 
