@@ -158,6 +158,8 @@ In Markdown, ordered lists (numbered, ``<ol>`` tag) are created using numbers fo
 
 GFM lists support a "checklist" style, that can be dynamically ticked off like a todo list, without editing the Markdown document. Checklists look like ``- [ ] the item`` or ``- [x] the item``. If you add a checklist in a Github Issue (in the top, initial entry, not the replies), you will see a progress bar in your issues list. Sweet!
 
+GFM checklists also support automatic linking to users and issues, simply by inserting @username or #1 where 1 is the issue number. 
+
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 (In this example, leading and trailing spaces are shown with with dots: •)
@@ -174,26 +176,18 @@ GFM lists support a "checklist" style, that can be dynamically ticked off like a
 ••••* Field
 ••1. Gather and analyze experimental data, including uncertainty.
 ••1. Draw conclusions, comparing data with predictions. 
+
+•••To intersperse text within your list, indent at least one leading space, and enough to align to your liking. This text block is a paragraph, and has blank lines above and below. 
+
+•••You can also insert text on separate lines using line breaks. Use two trailing spaces to achieve this.••
+•••Then indent again, and follow with two trailing spaces again, as in this line.••
+
 1. Empirical Method
 ••* etc
 
-
-1. First ordered list item
-1. Another item
-••* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-••1. Ordered sub-list
-1. And another item.
- 
-•••You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
- 
-•••To have a line break without a paragraph, you will need to use two trailing spaces.••
-•••Note that this line is separate, but within the same paragraph.••
-•••(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
- 
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+#### To-do List
+- [x] @somegithubuser Work on issue #1. 
+- [ ] @anothergithubuser Work on issue #2. 
 ```
  
 1. Experimental Method
@@ -207,28 +201,18 @@ GFM lists support a "checklist" style, that can be dynamically ticked off like a
     * Field
   1. Gather and analyze experimental data, including uncertainty.
   1. Draw conclusions, comparing data with predictions. 
+
+   To intersperse text within your list, indent at least one leading space, and enough to align to your liking. This text block is a paragraph, and has blank lines above and below.
+
+   You can also insert text on separate lines using line breaks. Use two trailing spaces to achieve this.  
+   Then indent again, and follow with two trailing spaces again, as in this line.  
+
 1. Empirical Method
   * etc
 
-1. First ordered list item
-1. Another item
-  * Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-  1. Ordered sub-list
-1. And another item.
- 
-   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
- 
-   To have a line break without a paragraph, you will need to use two trailing spaces.  
-   Note that this line is separate, but within the same paragraph.  
-   (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
- 
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
-
-- [ ] check off
-- [x] check on
+#### To-do List
+- [x] @somegithubuser Work on issue #1. 
+- [ ] @anothergithubuser Work on issue #2. 
 
 * * *  
 <a name="links"/>
