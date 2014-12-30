@@ -185,9 +185,9 @@ GFM checklists also support automatic linking to users and issues, simply by ins
 1. **Empirical Method**
 ••* etc
 
-#### To-do List
-- [x] @somegithubuser Work on issue #1. 
-- [ ] @anothergithubuser Work on issue #2. 
+#### To-do List In an Issue
+- [x] @RickCogley Work on issue #2. 
+- [ ] @anothergithubuser Work on issue #3. 
 ```
 
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
@@ -213,8 +213,8 @@ GFM checklists also support automatic linking to users and issues, simply by ins
   * etc
 
 #### To-do List
-- [x] @somegithubuser Work on issue #1. 
-- [ ] @anothergithubuser Work on issue #2. 
+- [x] @RickCogley Work on issue #2. 
+- [ ] @anothergithubuser Work on issue #3. 
 
 * * *  
 <a name="links"/>
