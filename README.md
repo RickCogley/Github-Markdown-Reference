@@ -11,7 +11,10 @@ Please _don't edit this page_. Rather, if you have a suggestion, fork this repos
 **References**
 
 * [Markdown specification](http://daringfireball.net/projects/markdown/) by John Gruber.
-* Github Help Documentation on "GFM" [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) and [Writing on Github](https://help.github.com/articles/writing-on-github). 
+* Github Help Documentation on "GFM": 
+  * [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown)
+  * [Writing on Github](https://help.github.com/articles/writing-on-github)
+  * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 * Repositories regarding Markdown syntax from [dvidsilva](https://github.com/dvidsilva/MarkdownReference) and [adam-p](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 * Adam Pritchard's [Markdown Here](http://www.markdown-here.com/livedemo.html) demo site, where you can experiment in a kind of "sandbox" environment. 
 * Github includes the emoji from [The Emoji Cheatsheet](http://www.emoji-cheat-sheet.com).
