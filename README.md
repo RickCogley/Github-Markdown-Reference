@@ -16,7 +16,7 @@ Please _don't edit this page_. Rather, if you have a suggestion, fork this repos
   * [Writing on Github](https://help.github.com/articles/writing-on-github)
   * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 * Repositories regarding Markdown syntax from [dvidsilva](https://github.com/dvidsilva/MarkdownReference) and [adam-p](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-* Adam Pritchard's [Markdown Here](http://www.markdown-here.com/livedemo.html) demo site, where you can experiment in a kind of "sandbox" environment. 
+* Adam Pritchard's [Markdown Here](http://www.markdown-here.com/livedemo.html) or the  [Markdown-it](https://markdown-it.github.io) demo sites, where you can experiment in a kind of "sandbox" environment. 
 * Github includes the emoji from [The Emoji Cheatsheet](http://www.emoji-cheat-sheet.com).
 
 ## Table of Contents
@@ -48,17 +48,18 @@ GFM treats line breaks in a different way from normal Markdown, treating a singl
 In other words, in GFM just enter naturally:
 
 ```no-highlight
-Say NO to Drugs¶
+Say NO to Drugs¶  
 From your local police dep't.¶
 ```
 
 ... as opposed to having to enter two spaces (represented by •): 
 
 ```no-highlight
-Say NO to Drugs••¶
+Say NO to Drugs••¶  
 From your local police dep't.••¶
 ```
 
+**N.b.** - _as of 30 Dec 2014 it appears you **do** need to add the two spaces to force a_ ``<br>``.
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
 
