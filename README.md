@@ -11,7 +11,7 @@ Please _don't edit this page_. Rather, if you have a suggestion, fork this repos
 **References**
 
 * [Markdown specification](http://daringfireball.net/projects/markdown/) by John Gruber.
-* Github Help Documentation on [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) and [Writing on Github](https://help.github.com/articles/writing-on-github). 
+* Github Help Documentation on "GFM" [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown) and [Writing on Github](https://help.github.com/articles/writing-on-github). 
 * Repositories regarding Markdown syntax from [dvidsilva](https://github.com/dvidsilva/MarkdownReference) and [adam-p](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 * Adam Pritchard's [Markdown Here](http://www.markdown-here.com/livedemo.html) demo site, where you can experiment in a kind of "sandbox" environment. 
 * Github includes the emoji from [The Emoji Cheatsheet](http://www.emoji-cheat-sheet.com).
@@ -40,7 +40,21 @@ To insert header tags (e.g. ``<h3></h3>``) use hash marks followed by the text f
 
 ### :octocat: Github Style
 
-GFM treats line breaks in a different way from normal Markdown, treating a single line break (press of the enter key) as a real line break, which is likely what most people intend. The regular Markdown treatment is to require two line breaks between paragraphs, and that takes a bunch of getting used to. 
+GFM treats line breaks in a different way from normal Markdown, treating a single press of the enter key as a line break (``<br>``), which is likely what most people intend. The regular Markdown treatment is to require two spaces after a line to add a break, which is rather counterintuitive if you do not know the trick. 
+
+In other words, in GFM just enter naturally:
+
+```no-highlight
+Say NO to Drugs&#182;
+From your local police dep't.&#182;
+```
+
+... as opposed to having to enter: 
+
+```no-highlight
+Say NO to Drugs&#176;&#176;&#182;
+From your local police dep't.&#176;&#176;&#182;
+```
 
 ### :white_check_mark: Syntax
 
