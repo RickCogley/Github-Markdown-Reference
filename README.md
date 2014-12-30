@@ -160,6 +160,8 @@ GFM lists support a "checklist" style, that can be dynamically ticked off like a
 
 GFM checklists also support automatic linking to users and issues, simply by inserting @username or #1 where 1 is the issue number. 
 
+![cogley github issue progress 2014-12-30_17-47-06](https://cloud.githubusercontent.com/assets/512328/5577453/9ecdd4bc-9054-11e4-9f69-dc8cbfc413a0.png)
+
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 (In this example, leading and trailing spaces are shown with with dots: •)
