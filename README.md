@@ -38,7 +38,7 @@ Please _don't edit this page_. Rather, if you have a suggestion, fork this repos
  
 To insert header tags (e.g. ``<h3></h3>``) use hash marks followed by the text for the header (``# My H1 Header`` or ``#### My H4 Header``). Don't forget a space after the hash, and leave a carriage return between the header and the body text (you might have to vary this depending upon the site). 
 
-### :octocat: Github Style
+### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
 GFM treats line breaks in a different way from normal Markdown, treating a single press of the enter key as a line break (``<br>``), which is likely what most people intend. The regular Markdown treatment is to require two spaces after a line to add a break, which is rather counterintuitive if you do not know the trick. 
 
@@ -57,7 +57,7 @@ From your local police dep't.••¶
 ```
 
 
-### :white_check_mark: Syntax
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
 
 ```no-highlight
 # H1 Header
@@ -114,11 +114,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
  
 Add "emphasis" using asterisks (``_my italics_``) or underscores (``*my italics*``), and "strong emphasis" using double asterisks or underscores (``__my bold face__`` or ``**my bold fact**``). Emphasis gets converted to html ``<em></em>`` tags and strong emphasis to ``<strong></strong>`` tags. This style of markup is semantic (meaning it is meaningful in terms of the structure of the document) and not just cosmetic, and it's where the names of the tags come from. 
 
-### :octocat: Github Style
+### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
 GFM adds strikethrough to Markdown using double tildes (``~~text to strike~~``) surrounding the text, which equates to html del tags (``<del>text to strike</del>``). GFM also gracefully handles the situation when words contain underscores, as in software development (``some_code_variable``). Furthermore, GFM allows you to emphasize part of a word using asterisks. 
 
-### :white_check_mark: Syntax
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
 
 ```no-highlight
 Semantic emphasis, via *asterisks* or _underscores_. Renders as italics.
@@ -151,12 +151,12 @@ Emphasize parts of words using asterisks. You say to*mah*toe, I say to*may*toe.
 Blah blah (``sample``) blah.
 (In this example, leading and trailing spaces are shown with with dots: ⋅)
 
-### :octocat: Github Style
+### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
 GFM allows checklists
-Notes have special
+Notes have special progress bar if the checklist is at the top
 
-### :white_check_mark: Syntax
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 ```no-highlight
 1. First ordered list item
@@ -202,7 +202,7 @@ Notes have special
  
 Blah blah (``sample``) blah. There are two ways to create links.
 
-### :white_check_mark: Syntax
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 ```no-highlight
 [I'm an inline-style link](https://www.google.com)
@@ -248,7 +248,7 @@ Some text to show that the reference links can follow later.
 
 Blah blah (``sample``) blah.
 
-### :white_check_mark: Syntax
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 ```no-highlight
 Here's our logo (hover to see the title text):
@@ -280,7 +280,7 @@ Code blocks are part of the Markdown spec, but syntax highlighting isn't. Howeve
 
 Blah blah (``sample``) blah.
 
-### :white_check_mark: Syntax
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 ```no-highlight
 Inline `code` has `back-ticks around` it.
@@ -331,7 +331,7 @@ Tables aren't part of the core Markdown spec, but they are part of GFM and *Mark
 
 Blah blah (``sample``) blah.
 
-### :white_check_mark: :octocat: Syntax
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Syntax
  
 ```no-highlight
 Colons can be used to align columns.
@@ -392,7 +392,7 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
 Blah blah (``sample``) blah.
 
-### :white_check_mark: Syntax
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 ```no-highlight
 <dl>
@@ -418,7 +418,7 @@ Blah blah (``sample``) blah.
 
 Blah blah (``sample``) blah.
 
-### :white_check_mark: Syntax
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 ```
 Three or more...
@@ -456,7 +456,7 @@ Underscores
 
 Blah blah (``sample``) blah.
 
-### :white_check_mark: Syntax
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend. 
  
@@ -504,3 +504,9 @@ Or, in pure Markdown, but losing the image sizing and border:
 Referencing a bug by #bugID in your git commit links it to the slip. For example #1. 
 
 Other - you can just stick an entity in. Like &#182;
+
+<img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle">
+
+<img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle">
+
+<img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle">
