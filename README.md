@@ -212,7 +212,7 @@ GFM checklists also support automatic linking to users and issues, simply by ins
 1. **Empirical Method**
   * etc
 
-#### To-do List
+#### To-do List in an Issue
 - [x] @RickCogley Work on issue #2. 
 - [ ] @anothergithubuser Work on issue #3. 
 
