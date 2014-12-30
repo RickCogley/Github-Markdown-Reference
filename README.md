@@ -198,7 +198,8 @@ Notes have special progress bar if the checklist is at the top
 - Or minuses
 + Or pluses
 
-
+- [ ] check off
+- [x] check on
 
 * * *  
 <a name="links"/>
