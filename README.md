@@ -224,7 +224,17 @@ Necessary leading and trailing spaces are indicated with dots: ••
 <a name="links"/>
 > ## Links
  
-Blah blah (``sample``) blah. There are two ways to create links.
+Blah blah (``sample``) blah. There are two ways to create links. 
+
+### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
+
+* SHA: a5c3785ed8d6a35868bc169f07e40e889087fd2e
+* User@SHA: jlord@a5c3785ed8d6a35868bc169f07e40e889087fd2e
+* User/Repository@SHA: jlord/sheetsee.js@a5c3785ed8d6a35868bc169f07e40e889087fd2e
+* #Num: #26
+* GH-Num: GH-26
+* User#Num: jlord#26
+* User/Repository#Num: jlord/sheetsee.js#26
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
@@ -248,6 +258,8 @@ Some text to show that the reference links can follow later.
 [link text itself]: http://www.reddit.com
 ```
  
+### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
+
 [I'm an inline-style link](https://www.google.com)
  
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
@@ -272,6 +284,10 @@ Some text to show that the reference links can follow later.
 
 Blah blah (``sample``) blah.
 
+### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
+
+Nothing special
+
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 ```no-highlight
@@ -286,6 +302,8 @@ Reference-style:
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 ```
  
+### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
+
 Here's our logo (hover to see the title text):
  
 Inline-style: 
@@ -301,6 +319,8 @@ Reference-style:
 > ## Code and Syntax Highlighting
  
 Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
+
+### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
 Blah blah (``sample``) blah.
 
@@ -347,11 +367,23 @@ No language indicated, so no syntax highlighting in Markdown Here (varies on Git
 But let's throw in a <b>tag</b>.
 ```
  
+===========SOME KIND OF DIFFERENT FORMAT============
+
+
+### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
+
+===========SOME KIND OF DIFFERENT FORMAT============
+
+
 * * *  
 <a name="tables"/>
 > ## Tables
  
 Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
+
+### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
+
+It's all GH style
 
 Blah blah (``sample``) blah.
 
@@ -374,6 +406,8 @@ Markdown | Less | Pretty
 1 | 2 | 3
 ```
  
+### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
+
 Colons can be used to align columns.
  
 | Tables        | Are           | Cool |
@@ -401,6 +435,8 @@ Quote break.
  
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
 ```
+
+### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
  
 > Blockquotes are very handy in email to emulate reply text.
 > This line is part of the same quote.
@@ -414,6 +450,9 @@ Quote break.
 
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well. 
 
+### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
+
+WHAT'S THE WHITELIST 
 Blah blah (``sample``) blah.
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
@@ -428,6 +467,8 @@ Blah blah (``sample``) blah.
 </dl>
 ```
  
+### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
+
 <dl>
   <dt>Definition list</dt>
   <dd>Is something people use sometimes.</dd>
@@ -441,6 +482,10 @@ Blah blah (``sample``) blah.
 > ## Horizontal Rule
 
 Blah blah (``sample``) blah.
+
+### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
+
+Nothing special
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
@@ -459,6 +504,8 @@ ___
  
 Underscores
 ```
+
+### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
  
 Three or more...
  
@@ -483,6 +530,10 @@ Blah blah (``sample``) blah.
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend. 
+
+### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
+
+WHAT IS IT - do we need this section? 
  
 Here are some things to try out:
  
@@ -495,6 +546,8 @@ This line is also a separate paragraph, but...
 This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
 ```
  
+### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
+
 Here's a line for us to start with.
  
 This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
@@ -508,6 +561,14 @@ This line is only separated by a single newline, so it's a separate line in the 
 <a name="embeds"/>
 > ## HTML Embeds
  
+asdfasdfasdf
+
+### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
+
+asdfadsf
+
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
+
 Youtube videos have an embed code (an html iframe) which is accessible from Share, Embed on the video page. They can't be added directly but you can add an image with a link to the video like this:
  
 ```no-highlight
@@ -521,6 +582,8 @@ Or, in pure Markdown, but losing the image sizing and border:
 ```no-highlight
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 ```
+
+### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
 [![Bazaar at Shinbashi Tokyo, by Rick Cogley](http://img.youtube.com/vi/ibhHk0CCYXA/0.jpg)](http://www.youtube.com/watch?v=ibhHk0CCYXA)
  
