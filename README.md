@@ -49,11 +49,11 @@ Say NO to Drugs¶
 From your local police dep't.¶
 ```
 
-... as opposed to having to enter: 
+... as opposed to having to enter two spaces (represented by •): 
 
 ```no-highlight
-Say NO to Drugs  ¶
-From your local police dep't.  ¶
+Say NO to Drugs••¶
+From your local police dep't.••¶
 ```
 
 
