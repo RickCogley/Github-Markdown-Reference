@@ -29,10 +29,7 @@ Please _don't edit this page_. Rather, if you have a suggestion, fork this repos
 * [Code and Syntax Highlighting](#code)  
 * [Tables](#tables)  
 * [Other Formatting](#otherformatting)  
-* [Inline HTML](#html)  
-* [Horizontal Rule](#hr)  
-* [Line Breaks](#linebreaks)  
-* [HTML embeds](#embeds) 
+* [HTML](#html)  
 
 # MARKDOWN REFERENCE & SHOWCASE
  
@@ -515,47 +512,50 @@ Popular Compact Camera Comparison:
 <a name="otherformatting"/>
 > ## Other Formatting
  
-BLOCK QUOTES (and HRs)
+Markdown supports other formatting as well, namely horizontal rules and block quotes. For a horizontal rule enter three or more hyphens, asterisks or underscores. For a blockquote, enter a ``>`` before the line, and you can include Markdown inside a blockquote, as well. There is no special GFM syntax for these. 
+
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
+
 ```no-highlight
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+Three or more hyphens, asterisks or underscores will be converted to a horizontal rule: 
+***
+----
+____
  
-Quote break.
- 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+> If passion drives you, let reason hold the reins. —_Benjamin Franklin, 1706 - 1790_
 ```
 
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
  
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+Three or more hyphens, asterisks or underscores will be converted to a horizontal rule: 
+***
+----
+____
  
-Quote break.
- 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+> If passion drives you, let reason hold the reins. —_Benjamin Franklin, 1706 - 1790_
  
 <a name="html"/>
-> ## Inline HTML
+> ## HTML Code
 
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well. 
+Markdown also allows you to enter raw HTML code, such as entering definition lists or image tags as we have explored above. 
 
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
-WHAT'S THE WHITELIST 
-https://github.com/github/markup/tree/master#html-sanitization
-
-Blah blah (``sample``) blah.
+Github also allows HTML code, but there is a [whitelist of permitted tags](https://github.com/github/markup/tree/master#html-sanitization) to take note of.  
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 ```no-highlight
 <dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
- 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets</dd>
+  <dt>XML</dt>
+  <dd>Extensible Markup Language</dd>
 </dl>
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
+" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 ```
  
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
@@ -567,86 +567,6 @@ Blah blah (``sample``) blah.
   <dt>Markdown in HTML</dt>
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
-
-* * *  
-<a name="hr"/>
-> ## Horizontal Rule
-
-Blah blah (``sample``) blah.
-
-### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
-
-Nothing special
-
-### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
- 
-```
-Three or more...
- 
----
- 
-Hyphens
- 
-***
- 
-Asterisks
- 
-___
- 
-Underscores
-```
-
-### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
- 
-Three or more...
- 
----
- 
-Hyphens
- 
-***
- 
-Asterisks
- 
-___
- 
-Underscores
-
-* * *  
-<a name="linebreaks"/>
-> ## Line Breaks
-
-Blah blah (``sample``) blah.
-
-### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
- 
-My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend. 
-
-### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
-
-WHAT IS IT - do we need this section? 
- 
-Here are some things to try out:
- 
-```
-Here's a line for us to start with.
- 
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
- 
-This line is also a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
-```
- 
-### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
-
-Here's a line for us to start with.
- 
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
- 
-This line is also begins a separate paragraph, but...  
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
- 
-(Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use MD's two-space line breaks.)
 
 * * *  
 <a name="embeds"/>
