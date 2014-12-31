@@ -531,7 +531,7 @@ ____
  
 You could format a famous quotation in blockquote style, including inline Markdown, as follows: 
 
-> **If passion drives you, let reason hold the reins.** —_Benjamin Franklin, 1706 - 1790_
+> #### _If passion drives you, let reason hold the reins. — Benjamin Franklin, 1706 - 1790_
 
 Three or more hyphens, asterisks or underscores will be converted to a horizontal rule: 
 ***
