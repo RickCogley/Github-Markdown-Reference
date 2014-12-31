@@ -399,7 +399,7 @@ Use asterisks for emphasis (``**text to be emphasized**``) or pound-signs in fro
  
 An unhighlighted tag:  
 ```no-highlight
-Here's a tag: <xml>.
+Here's a tag: < xml >.
 ```
 </code>
 </pre>
