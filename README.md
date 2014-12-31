@@ -224,22 +224,24 @@ Necessary leading and trailing spaces are indicated with dots: ••
 <a name="links"/>
 > ## Links
  
-Blah blah (``sample``) blah. There are two ways to create links. 
+Markdown allows you to create inline or reference links. Inline links have all the information for the link included inline in the document (``[eSolia Inc.](http://www.esolia.com)``), whereas reference links simply refer to a code elsewhere in the document (``[eSolia Inc.][1]``). The point to reference links is to allow you to keep your document tidy, so that it's easier to read. You can also 
 
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
-* SHA: a5c3785ed8d6a35868bc169f07e40e889087fd2e
-* User@SHA: jlord@a5c3785ed8d6a35868bc169f07e40e889087fd2e
-* User/Repository@SHA: jlord/sheetsee.js@a5c3785ed8d6a35868bc169f07e40e889087fd2e
-* #Num: #26
-* GH-Num: GH-26
-* User#Num: jlord#26
-* User/Repository#Num: jlord/sheetsee.js#26
+GFM supports automatic linking in a number of convenient cases. You can autolink an URL simply by entering the URL, or in Issues, you can autolink SHAs, @usernames, Issue Id numbers (like #1, #2), or various specific combinations of user/repo@sha or user/repo#issuenum.  
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
+
+Notice that inline links use the syntax ``[]()`` whereas reference links use ``[][]``.
  
 ```no-highlight
-[I'm an inline-style link](https://www.google.com)
+* _Inline link_: visit [eSolia](http://www.esolia.com) for Tokyo IT support...  
+* _Inline link with title_: eSolia [PROdb](http://www.esolia.com/prodb "eSolia PROdb cloud database") is a rock-solid cloud database... (hover over the link to see a tooltip with the title text)
+* _Reference link with number_: visit [eSolia][1] for Tokyo IT support... 
+* _Reference link with text_: eSolia [PROdb][Cloud Database PROdb]...
+
+[1]: http://www.esolia.com
+[Cloud Database PROdb]: http://www.esolia.com/prodb
  
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
  
@@ -258,6 +260,17 @@ Some text to show that the reference links can follow later.
 [link text itself]: http://www.reddit.com
 ```
  
+* SHA: ad251b871766f269af97d9c2be4228f0beb6c04f
+* Short SHA: ad251b (does _not_ work)
+* User@SHA: rickcogley@ad251b871766f269af97d9c2be4228f0beb6c04f
+* User/Repository@SHA: rickcogley/Github-Markdown-Reference@ad251b871766f269af97d9c2be4228f0beb6c04f
+* Issue Number: #3
+* Issue "GH" Number: GH-3
+* User#Num: rickcogley#3
+* User/Repository#Num: rickcogley/Github-Markdown-Reference#3
+
+
+
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
 [I'm an inline-style link](https://www.google.com)
@@ -277,6 +290,10 @@ Some text to show that the reference links can follow later.
 [arbitrary case-insensitive reference text]: https://www.mozilla.org
 [1]: http://slashdot.org
 [link text itself]: http://www.reddit.com
+
+
+SEE:
+https://github.com/RickCogley/Github-Markdown-Reference/issues/2
 
 * * *  
 <a name="images"/>
@@ -453,6 +470,8 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
 WHAT'S THE WHITELIST 
+https://github.com/github/markup/tree/master#html-sanitization
+
 Blah blah (``sample``) blah.
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
