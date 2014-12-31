@@ -483,7 +483,7 @@ Cost per ticket over three year period:
 | 2013 |                6576 |                     12,200,000 |                   1885 |
 | 2014 |                9779 |                     15,150,000 |                   1549 |
 
-Outer pipes are not needed and you can use inline markdown formatting:
+Popular Compact Camera Comparison:
  
    **Camera** |  **Sensor**  |  **Cost** 
 -------------:|:------------:|----------:
@@ -502,7 +502,7 @@ Cost per ticket over three year period:
 | 2013 |                6576 |                     12,200,000 |                   1885 |
 | 2014 |                9779 |                     15,150,000 |                   1549 |
 
-Outer pipes are not needed and you can use inline markdown formatting:
+Popular Compact Camera Comparison:
  
    **Camera** |  **Sensor**  |  **Cost** 
 -------------:|:------------:|----------:
