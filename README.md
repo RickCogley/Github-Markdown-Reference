@@ -305,7 +305,7 @@ Notice that inline images use the syntax ``![]()`` whereas reference images use 
  
 ```no-highlight
 _eSolia SVG Logo as an Inline link_:  
-![eSolia Chicklet 01 Alt Text](http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GoldBlue.svg)
+![eSolia Chicklet 01 Alt Text](http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowGreen.svg)
 
 _eSolia PNG Logo as an Inline link with hoverable title_:  
 ![eSolia Chicklet 02 Alt Text](http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GreenPurple.png "eSolia Chicklet 02")
@@ -315,7 +315,8 @@ _eSolia PNG Logo as a Reference link with hoverable title_:
 
 [eSolia-Chicklet-03]: http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_BlueBrown.png "eSolia Chicklet 03"
 
-<img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="10" width="10" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="50" width="50" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="150" width="150" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="300" width="300" align="absmiddle">
+_eSolia SVG Logo as sized HTML img tag_:  
+<img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="20" width="20" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="100" width="100" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="200" width="200" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="400" width="400" align="absmiddle">
 ```
  
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
@@ -323,7 +324,7 @@ _eSolia PNG Logo as a Reference link with hoverable title_:
 We'll serve these via our Github Pages project site.
 
 _eSolia SVG Logo as an Inline link_:  
-![eSolia Chicklet 01 Alt Text](http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GoldBlue.svg)
+![eSolia Chicklet 01 Alt Text](http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowGreen.svg)
 
 _eSolia PNG Logo as an Inline link with hoverable title_:  
 ![eSolia Chicklet 02 Alt Text](http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GreenPurple.png "eSolia Chicklet 02")
@@ -333,7 +334,8 @@ _eSolia PNG Logo as a Reference link with hoverable title_:
 
 [eSolia-Chicklet-03]: http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GoldBlue.png "eSolia Chicklet 03"
 
-<img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="10" width="10" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="50" width="50" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="150" width="150" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="300" width="300" align="absmiddle">
+_eSolia SVG Logo as sized HTML img tag_:  
+<img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="20" width="20" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="100" width="100" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="200" width="200" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="400" width="400" align="absmiddle">
 
 * * *  
 <a name="code"/>
