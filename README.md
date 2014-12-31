@@ -545,11 +545,15 @@ Markdown also allows you to enter raw HTML code, such as entering definition lis
 
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
-Github specifies a [whitelist of permitted HTML tags](https://github.com/github/markup/tree/master#html-sanitization) to take note of.  
+Github specifies a [whitelist of permitted HTML tags](https://github.com/github/markup/tree/master#html-sanitization) to take note of. Unfortunately you cannot use iframe tags, which would be convenient for inserting embed codes from sites like Youtube (accessible from the video page, Share, Embed). 
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 ```no-highlight
+Sometimes entering an "entity" can be convenient: 
+&#182;&#182;&#182;&#182;
+
+Here's a definition list: 
 <dl>
   <dt>CSS</dt>
   <dd>Cascading Style Sheets</dd>
@@ -557,6 +561,7 @@ Github specifies a [whitelist of permitted HTML tags](https://github.com/github/
   <dd>Extensible Markup Language</dd>
 </dl>
 
+And an img tag inside an anchor tag, to display a clickable Youtube video:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
 " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
@@ -564,6 +569,10 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
  
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
+Sometimes entering an "entity" can be convenient:  
+&#182;&#182;&#182;&#182;
+
+Here's a definition list:  
 <dl>
   <dt>CSS</dt>
   <dd>Cascading Style Sheets</dd>
@@ -571,47 +580,14 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
   <dd>Extensible Markup Language</dd>
 </dl>
 
+And a clickable Youtube video in nested Markdown:  
 [![Bazaar at Shinbashi Tokyo, by Rick Cogley](http://img.youtube.com/vi/ibhHk0CCYXA/0.jpg)](http://www.youtube.com/watch?v=ibhHk0CCYXA)
+
+Or, the same in HTML with the size set (not possible in pure Markdown):  
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ibhHk0CCYXA
+" target="_blank"><img src="http://img.youtube.com/vi/ibhHk0CCYXA/0.jpg" 
+alt="Bazaar at Shimbashi Tokyo, by Rick Cogley" width="240" height="180" border="10" /></a>
 
 * * *  
-<a name="embeds"/>
-> ## HTML Embeds
- 
-asdfasdfasdf
-
-### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
-
-asdfadsf
-
-### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
-
-Youtube videos have an embed code (an html iframe) which is accessible from Share, Embed on the video page. They can't be added directly but you can add an image with a link to the video like this:
- 
-```no-highlight
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-```
- 
-Or, in pure Markdown, but losing the image sizing and border:
- 
-```no-highlight
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-```
-
-### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
-
-[![Bazaar at Shinbashi Tokyo, by Rick Cogley](http://img.youtube.com/vi/ibhHk0CCYXA/0.jpg)](http://www.youtube.com/watch?v=ibhHk0CCYXA)
- 
-
-Referencing a bug by #bugID in your git commit links it to the slip. For example #1. 
-
-Other - you can just stick an entity in. Like &#182;
-
-<img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle">
-
-<img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle">
-
-<img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle">
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Github Markdown Cheatsheet</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://rick.cogley.info" property="cc:attributionName" rel="cc:attributionURL">James R. Cogley</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/RickCogley/Github-Markdown-Reference" rel="dct:source">https://github.com/RickCogley/Github-Markdown-Reference</a>.
