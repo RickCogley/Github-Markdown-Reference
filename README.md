@@ -286,7 +286,7 @@ The below links won't work in this README.md file, but you can see them working 
 <a name="images"/>
 > ## Images
 
-For images, Markdown uses similar syntax to links. Just add a ``!`` in front of the link (``![eSolia Chicklet Logo](http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GoldBlue.svg)``). Reference links work as well. 
+For images, Markdown uses similar syntax to links. Just add a ``!`` in front of the link (``![eSolia Chicklet Logo](http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GoldBlue.svg)``). A reference link style works as well. 
 
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
@@ -301,7 +301,7 @@ The above concepts hold true for other assets as well, such as javascript assets
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
 
-Notice that inline images use the syntax ``![]()`` whereas reference images use ``![][]``.
+Notice that inline images use the syntax ``![]()`` whereas reference images use ``![][]``. If you need to resize images, use HTML. 
  
 ```no-highlight
 _eSolia SVG Logo as an Inline link_:  
@@ -313,7 +313,9 @@ _eSolia PNG Logo as an Inline link with hoverable title_:
 _eSolia PNG Logo as a Reference link with hoverable title_:  
 ![eSolia Chicklet 03 Alt Text][eSolia-Chicklet-03]
 
-[eSolia-Chicklet-03]: http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GoldBlue.png "eSolia Chicklet 03"
+[eSolia-Chicklet-03]: http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_BlueBrown.png "eSolia Chicklet 03"
+
+<img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="10" width="10" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="50" width="50" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="150" width="150" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="300" width="300" align="absmiddle">
 ```
  
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
@@ -330,6 +332,8 @@ _eSolia PNG Logo as a Reference link with hoverable title_:
 ![eSolia Chicklet 03 Alt Text][eSolia-Chicklet-03]
 
 [eSolia-Chicklet-03]: http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GoldBlue.png "eSolia Chicklet 03"
+
+<img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="10" width="10" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="50" width="50" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="150" width="150" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="300" width="300" align="absmiddle">
 
 * * *  
 <a name="code"/>
