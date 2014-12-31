@@ -489,7 +489,7 @@ Popular Compact Camera Comparison:
      **Sony** | _Full Frame_ | USD 2,000 
     **Leica** | _Full Frame_ | USD 8,000 
 ```
- 
+  
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
 Cost per ticket over three year period: 
@@ -519,7 +519,7 @@ Markdown supports other formatting as well, namely horizontal rules and block qu
 ```no-highlight
 You could format a famous quotation in blockquote style, including inline Markdown, as follows: 
 
-> **If passion drives you, let reason hold the reins.** —_Benjamin Franklin, 1706 - 1790_
+> #### _If passion drives you, let reason hold the reins._ — Benjamin Franklin, 1706 - 1790
 
 Three or more hyphens, asterisks or underscores will be converted to a horizontal rule: 
 ***
@@ -531,7 +531,7 @@ ____
  
 You could format a famous quotation in blockquote style, including inline Markdown, as follows: 
 
-> #### _If passion drives you, let reason hold the reins. — Benjamin Franklin, 1706 - 1790_
+> #### _If passion drives you, let reason hold the reins._ — Benjamin Franklin, 1706 - 1790
 
 Three or more hyphens, asterisks or underscores will be converted to a horizontal rule: 
 ***
