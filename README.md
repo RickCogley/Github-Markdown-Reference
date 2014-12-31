@@ -335,7 +335,7 @@ _eSolia PNG Logo as a Reference link with hoverable title_:
 [eSolia-Chicklet-03]: http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GoldBlue.png "eSolia Chicklet 03"
 
 _eSolia SVG Logo as sized HTML img tag_:  
-<img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="20" width="20" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="100" width="100" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="200" width="200" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="400" width="400" align="absmiddle">
+<img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="20" width="40" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="100" width="100" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="200" width="200" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="400" width="400" align="absmiddle">
 
 * * *  
 <a name="code"/>
@@ -345,7 +345,7 @@ When writing about programming or source code, Markdown lets you create code blo
 
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
-Github not only supports "fenced" code blocks, which are easier to use compared to indents, but also syntax highlighting via [Linguist](https://github.com/github/linguist). To use fenced code blocks, insert three backticks (<code> ``` </code>) before and after the block. To specify a language to highlight, specify the language name after the initial backticks, referring to Linguist's [Languages YAML](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) file (<code> ```javascript </code>).
+Github not only supports "fenced" code blocks, which are easier to use compared to indents, but also syntax highlighting via [Linguist](https://github.com/github/linguist). To use fenced code blocks, insert three backticks before and after the block. To specify a language to highlight, specify the language name after the initial backticks, referring to Linguist's [Languages YAML](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) file (<code> ```javascript </code>).
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
 
