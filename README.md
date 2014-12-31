@@ -305,29 +305,31 @@ Notice that inline images use the syntax ``![]()`` whereas reference images use 
  
 ```no-highlight
 _eSolia SVG Logo as an Inline link_:  
-![eSolia Chicklet 01 Alt Text](https://github.com/RickCogley/Github-Markdown-Reference/blob/master/Assets/eSOLIA_Square_BlueBrown.svg)
+![eSolia Chicklet 01 Alt Text](http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GoldBlue.svg)
 
 _eSolia PNG Logo as an Inline link with hoverable title_:  
-![eSolia Chicklet 02 Alt Text](https://github.com/RickCogley/Github-Markdown-Reference/blob/master/Assets/eSOLIA_Square_GreenPurple.png "eSolia Chicklet 02")
+![eSolia Chicklet 02 Alt Text](http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GreenPurple.png "eSolia Chicklet 02")
 
 _eSolia PNG Logo as a Reference link with hoverable title_:  
 ![eSolia Chicklet 03 Alt Text][eSolia-Chicklet-03]
 
-[eSolia-Chicklet-03]: https://github.com/RickCogley/Github-Markdown-Reference/blob/master/Assets/eSOLIA_Square_GoldBlue.png "eSolia Chicklet 03 Alt Text"
+[eSolia-Chicklet-03]: http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GoldBlue.png "eSolia Chicklet 03"
 ```
  
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
+We'll serve these via our Github Pages project site.
+
 _eSolia SVG Logo as an Inline link_:  
-![eSolia Chicklet 01 Alt Text](https://github.com/RickCogley/Github-Markdown-Reference/blob/master/Assets/eSOLIA_Square_BlueBrown.svg)
+![eSolia Chicklet 01 Alt Text](http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GoldBlue.svg)
 
 _eSolia PNG Logo as an Inline link with hoverable title_:  
-![eSolia Chicklet 02 Alt Text](https://github.com/RickCogley/Github-Markdown-Reference/blob/master/Assets/eSOLIA_Square_GreenPurple.png "eSolia Chicklet 02")
+![eSolia Chicklet 02 Alt Text](http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GreenPurple.png "eSolia Chicklet 02")
 
 _eSolia PNG Logo as a Reference link with hoverable title_:  
 ![eSolia Chicklet 03 Alt Text][eSolia-Chicklet-03]
 
-[eSolia-Chicklet-03]: https://github.com/RickCogley/Github-Markdown-Reference/blob/master/Assets/eSOLIA_Square_GoldBlue.png "eSolia Chicklet 03 Alt Text"
+[eSolia-Chicklet-03]: http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GoldBlue.png "eSolia Chicklet 03"
 
 * * *  
 <a name="code"/>
