@@ -349,7 +349,7 @@ Github not only supports "fenced" code blocks, which are easier to use compared 
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
 
-For quick code references inline, surround the snippet with two backticks on either side (<code>``ls -la``</code> yielding ``ls -la``). Otherwise, enclose your code in fenced blocks per the below, specifying either the language to be highlighted, or, "no-highlight" to turn off syntax highlighting (<code>```no-highlight</code>). 
+For quick code references inline, surround the snippet with two backticks on either side (<pre><code>``ls -la``</code></pre> yielding ``ls -la``). Otherwise, enclose your code in fenced blocks per the below, specifying either the language to be highlighted, or, "no-highlight" to turn off syntax highlighting (<code>```no-highlight</code>). 
  
 <pre lang="no-highlight">
 <code>
