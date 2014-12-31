@@ -355,6 +355,7 @@ For quick code references inline, surround the snippet with two backticks on eit
 <code>
 Display hidden files in the Linux shell using this command: ``ls -la``. 
 
+A shell script to return reference times in various timezones:  
 ```shell
 echo == Reference Times ==
 echo -e "Tokyo - \t" `TZ=Asia/Tokyo date "+%Z (%z) %R %a %e %b %Y";`
@@ -367,7 +368,8 @@ echo -e "Chicago - \t" `TZ=US/Central date "+%Z (%z) %R %a %e %b %Y";`
 echo -e "Denver - \t" `TZ=US/Mountain date "+%Z (%z) %R %a %e %b %Y";`
 echo -e "San Francisco - \t" `TZ=US/Pacific date "+%Z (%z) %R %a %e %b %Y"`
 ```
-
+ 
+A square root function in javascript by John Carmack:  
 ```javascript
 /*
 ================
@@ -390,12 +392,14 @@ float SquareRootFloat(float number) {
 }
 ```
  
+Some basic Markdown markup:  
 ```markdown
 Use asterisks for emphasis (``**text to be emphasized**``) or pound-signs in front of headers (``### An H3 Header``) in Markdown.   
 ```
-  
+ 
+An unhighlighted tag:  
 ```no-highlight
-Here's a tag: &lt;b&gt;tag&lt;/b&gt;.
+Here's a tag: <xml>.
 ```
 </code>
 </pre>
@@ -446,9 +450,9 @@ Some Markdown code:
 Use asterisks for emphasis (``**text to be emphasized**``) or pound-signs in front of headers (``### An H3 Header``) in Markdown.   
 ```
 
-A random tag:    
+An unhighlighted tag:    
 ```no-highlight
-Here's a tag: &lt;b&gt;tag&lt;/b&gt;.
+Here's a tag: <xml>.
 ```
 
 * * *  
