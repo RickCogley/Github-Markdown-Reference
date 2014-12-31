@@ -473,6 +473,7 @@ When creating GFM tables keep in mind:
 
 * outer pipes are not required but you can add them if you like that better
 * row-by-row pretty alignment is not needed, but do it if you prefer that
+* they include no fancy Excel-like features such as sums or averages - it's strictly DIY
  
 ```no-highlight
 Cost per ticket over three year period: 
