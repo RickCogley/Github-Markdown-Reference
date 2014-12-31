@@ -517,23 +517,27 @@ Markdown supports other formatting as well, namely horizontal rules and block qu
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
 
 ```no-highlight
+You could format a famous quotation in blockquote style, including inline Markdown, as follows: 
+
+> **If passion drives you, let reason hold the reins.** —_Benjamin Franklin, 1706 - 1790_
+
 Three or more hyphens, asterisks or underscores will be converted to a horizontal rule: 
 ***
 ----
 ____
- 
-> If passion drives you, let reason hold the reins. —_Benjamin Franklin, 1706 - 1790_
 ```
 
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
  
+You could format a famous quotation in blockquote style, including inline Markdown, as follows: 
+
+> **If passion drives you, let reason hold the reins.** —_Benjamin Franklin, 1706 - 1790_
+
 Three or more hyphens, asterisks or underscores will be converted to a horizontal rule: 
 ***
 ----
 ____
- 
-> If passion drives you, let reason hold the reins. —_Benjamin Franklin, 1706 - 1790_
- 
+  
 <a name="html"/>
 > ## HTML Code
 
@@ -541,7 +545,7 @@ Markdown also allows you to enter raw HTML code, such as entering definition lis
 
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
-Github also allows HTML code, but there is a [whitelist of permitted tags](https://github.com/github/markup/tree/master#html-sanitization) to take note of.  
+Github specifies a [whitelist of permitted HTML tags](https://github.com/github/markup/tree/master#html-sanitization) to take note of.  
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
@@ -561,12 +565,13 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
 <dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
- 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets</dd>
+  <dt>XML</dt>
+  <dd>Extensible Markup Language</dd>
 </dl>
+
+[![Bazaar at Shinbashi Tokyo, by Rick Cogley](http://img.youtube.com/vi/ibhHk0CCYXA/0.jpg)](http://www.youtube.com/watch?v=ibhHk0CCYXA)
 
 * * *  
 <a name="embeds"/>
