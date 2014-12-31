@@ -345,25 +345,15 @@ When writing about programming or source code, Markdown lets you create code blo
 
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
-Github not only supports "fenced" code blocks, which are easier to use compared to indents, but also syntax highlighting via [Linguist](https://github.com/github/linguist). To use fenced code blocks, insert three backticks (<code>```</code>) before and after the block. To specify a language to highlight, specify the language name referring to Linguist's [Languages YAML](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) file.
+Github not only supports "fenced" code blocks, which are easier to use compared to indents, but also syntax highlighting via [Linguist](https://github.com/github/linguist). To use fenced code blocks, insert three backticks (<code>```</code>) before and after the block. To specify a language to highlight, specify the language name after the initial backticks, referring to Linguist's [Languages YAML](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) file (<code>```javascript</code>).
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
 
-WILL THIS WORK
-
-try shell as lang with timezone code
+For quick code references inline, surround the snippet with two backticks on either side (<code>``ls -la``</code> yielding ``ls -la``). Otherwise, enclose your code in fenced blocks per the below, specifying either the language to be highlighted, or, "no-highlight" to turn off syntax highlighting (<code>```no-highlight</code>). 
  
-
-```no-highlight
-Inline `code` has `back-ticks around` it.
-```
-
- 
-Inline `code` has `back-ticks around` it.
- 
-Blocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
- 
-<pre lang="no-highlight"><code>```javascript
+<pre lang="no-highlight">
+<code>
+```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
@@ -377,7 +367,8 @@ print s
 No language indicated, so no syntax highlighting. 
 But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
 ```
-</code></pre>
+</code>
+</pre>
  
  
  
