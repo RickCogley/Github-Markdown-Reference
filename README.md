@@ -286,39 +286,48 @@ The below links won't work in this README.md file, but you can see them working 
 <a name="images"/>
 > ## Images
 
-Blah blah (``sample``) blah.
+For images, Markdown uses similar syntax to links. Just add a ``!`` in front of the link (``![eSolia Chicklet Logo](http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GoldBlue.svg)``). Reference links work as well. 
 
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
-Nothing special
+GFM uses the same syntax as regular Markdown for images. However, note that if you need images for a README.md file like this one, there are a couple ways you can do prepare them for use: 
+
+1. Upload the image to a Github Issue, and use its URL in the image markdown in the README.md. 
+1. Create a Github Pages page, and upload the images to the resulting gh-pages branch of the repository. Gh-pages are served via a fast ngnix instance, via an URL like ``http://myuser.github.io/myrepo/path/to/myimage.png``. 
+1. Upload the image to your repository, and reference it from there. This is _not a good idea however_, because the image will be served via the Github application layer. Raster images (.gif, .png, .jpg) work, but vector images (.svg) won't even be displayed when referenced in this manner, instead appearing as the underlying code instead of the image. Compare [this .png image](https://raw.githubusercontent.com/RickCogley/Github-Markdown-Reference/master/Assets/eSOLIA_Square_BlueBrown.png) with [this .svg image](https://raw.githubusercontent.com/RickCogley/Github-Markdown-Reference/master/Assets/eSOLIA_Square_BlueBrown.svg) served directly from the repository. 
+1. Serve the images from another service like Imgur or Dropbox.
+
+The above concepts hold true for other assets as well, such as javascript assets. 
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
+
+Notice that inline images use the syntax ``![]()`` whereas reference images use ``![][]``.
  
 ```no-highlight
-Here's our logo (hover to see the title text):
- 
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
- 
-Reference-style: 
-![alt text][logo]
- 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+_eSolia SVG Logo as an Inline link_:  
+![eSolia Chicklet 01 Alt Text](https://github.com/RickCogley/Github-Markdown-Reference/blob/master/Assets/eSOLIA_Square_BlueBrown.svg)
+
+_eSolia PNG Logo as an Inline link with hoverable title_:  
+![eSolia Chicklet 02 Alt Text](https://github.com/RickCogley/Github-Markdown-Reference/blob/master/Assets/eSOLIA_Square_GreenPurple.png "eSolia Chicklet 02")
+
+_eSolia PNG Logo as a Reference link with hoverable title_:  
+![eSolia Chicklet 03 Alt Text][eSolia-Chicklet-03]
+
+[eSolia-Chicklet-03]: https://github.com/RickCogley/Github-Markdown-Reference/blob/master/Assets/eSOLIA_Square_GoldBlue.png "eSolia Chicklet 03 Alt Text"
 ```
  
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
-Here's our logo (hover to see the title text):
- 
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
- 
-Reference-style: 
-![alt text][logo]
- 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+_eSolia SVG Logo as an Inline link_:  
+![eSolia Chicklet 01 Alt Text](https://github.com/RickCogley/Github-Markdown-Reference/blob/master/Assets/eSOLIA_Square_BlueBrown.svg)
 
-![svg logo](http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GoldBlue.svg)
+_eSolia PNG Logo as an Inline link with hoverable title_:  
+![eSolia Chicklet 02 Alt Text](https://github.com/RickCogley/Github-Markdown-Reference/blob/master/Assets/eSOLIA_Square_GreenPurple.png "eSolia Chicklet 02")
+
+_eSolia PNG Logo as a Reference link with hoverable title_:  
+![eSolia Chicklet 03 Alt Text][eSolia-Chicklet-03]
+
+[eSolia-Chicklet-03]: https://github.com/RickCogley/Github-Markdown-Reference/blob/master/Assets/eSOLIA_Square_GoldBlue.png "eSolia Chicklet 03 Alt Text"
 
 * * *  
 <a name="code"/>
