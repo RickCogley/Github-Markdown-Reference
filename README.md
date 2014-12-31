@@ -545,13 +545,13 @@ Markdown also allows you to enter raw HTML code, such as entering definition lis
 
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
-Github specifies a [whitelist of permitted HTML tags](https://github.com/github/markup/tree/master#html-sanitization) to take note of. Unfortunately you cannot use iframe tags, which would be convenient for inserting embed codes from sites like Youtube (accessible from the video page, Share, Embed). 
+Github specifies a [whitelist of permitted HTML tags](https://github.com/github/markup/tree/master#html-sanitization) to take note of. Unfortunately you cannot use iframe tags, which would be convenient for inserting embed codes from sites like Youtube (accessible from the video page, Share, Embed). You can even enter "[entities](http://www.entitycode.com)" directly, such as &#182;. 
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 ```no-highlight
 Sometimes entering an "entity" can be convenient: 
-&#182;&#182;&#182;&#182;
+&copy;&sect;&ne;&hearts;&spades;&clubs;&diams;&#182;
 
 Here's a definition list: 
 <dl>
@@ -570,7 +570,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
 Sometimes entering an "entity" can be convenient:  
-&#182;&#182;&#182;&#182;
+&copy;&sect;&ne;&hearts;&spades;&clubs;&diams;&#182;
 
 Here's a definition list:  
 <dl>
