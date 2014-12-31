@@ -28,7 +28,7 @@ Please _don't edit this page_. Rather, if you have a suggestion, fork this repos
 * [Images](#images)  
 * [Code and Syntax Highlighting](#code)  
 * [Tables](#tables)  
-* [Blockquotes](#blockquotes)  
+* [Other Formatting](#otherformatting)  
 * [Inline HTML](#html)  
 * [Horizontal Rule](#hr)  
 * [Line Breaks](#linebreaks)  
@@ -459,54 +459,62 @@ Here's a tag: <xml>.
 <a name="tables"/>
 > ## Tables
  
-Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
+Markdown does not include a way to format tables, and to address this, several enhanced versions of Markdown are available such as [PHP Markdown Extra](https://michelf.ca/projects/php-markdown/extra/). 
 
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
-It's all GH style
+To add tables to your Github document or issue, use pipe characters to indicate columns in a given row (``| this col | that col |``), and colons in the second row to align text within a column. You can also use Markdown formatting within the table.  
 
-Blah blah (``sample``) blah.
+Try the [Markdown Tables Generator](http://www.tablesgenerator.com/markdown_tables) to get some assistance in building your tables. 
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Syntax
+
+When creating GFM tables keep in mind: 
+
+* outer pipes are not required but you can add them if you like that better
+* row-by-row pretty alignment is not needed, but do it if you prefer that
  
 ```no-highlight
-Colons can be used to align columns.
+Cost per ticket over three year period: 
+
+| Year | Num Tickets Handled | Helpdesk Cost Per Annum in JPY | Cost Per Ticket in JPY |
+|-----:|--------------------:|-------------------------------:|-----------------------:|
+| 2012 |                5675 |                     12,000,000 |                   2115 |
+| 2013 |                6576 |                     12,200,000 |                   1885 |
+| 2014 |                9779 |                     15,150,000 |                   1549 |
+
+Outer pipes are not needed and you can use inline markdown formatting:
  
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
- 
-The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
- 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+   **Camera** |  **Sensor**  |  **Cost** 
+-------------:|:------------:|----------:
+ **Fujifilm** |    _APSC_    | USD 1,300 
+     **Sony** | _Full Frame_ | USD 2,000 
+    **Leica** | _Full Frame_ | USD 8,000 
 ```
  
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
-Colons can be used to align columns.
+Cost per ticket over three year period: 
+
+| Year | Num Tickets Handled | Helpdesk Cost Per Annum in JPY | Cost Per Ticket in JPY |
+|-----:|--------------------:|-------------------------------:|-----------------------:|
+| 2012 |                5675 |                     12,000,000 |                   2115 |
+| 2013 |                6576 |                     12,200,000 |                   1885 |
+| 2014 |                9779 |                     15,150,000 |                   1549 |
+
+Outer pipes are not needed and you can use inline markdown formatting:
  
-| Tables        | Are           | Cool |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
- 
-The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
- 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+   **Camera** |  **Sensor**  |  **Cost** 
+-------------:|:------------:|----------:
+ **Fujifilm** |    _APSC_    | USD 1,300 
+     **Sony** | _Full Frame_ | USD 2,000 
+    **Leica** | _Full Frame_ | USD 8,000 
 
 * * *  
-<a name="blockquotes"/>
-> ## Blockquotes
+<a name="otherformatting"/>
+> ## Other Formatting
  
+BLOCK QUOTES (and HRs)
 ```no-highlight
 > Blockquotes are very handy in email to emulate reply text.
 > This line is part of the same quote.
