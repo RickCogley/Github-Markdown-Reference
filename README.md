@@ -341,16 +341,22 @@ _eSolia SVG Logo as sized HTML img tag_:
 <a name="code"/>
 > ## Code and Syntax Highlighting
  
-Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
+When writing about programming or source code, Markdown lets you create code blocks by indenting the lines of the block by 4 spaces or 1 tab. Indented blocks are wrapped by Markdown in both ``<pre>`` and ``<code>`` tags. Within a code block, Markdown will convert ampersands ``&`` and angle brackets ``<>`` into HTML entities, making it easy to simply paste HTML source code into a Markdown document. 
 
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
-Blah blah (``sample``) blah.
+Github not only supports "fenced" code blocks, which are easier to use compared to indents, but also syntax highlighting via [Linguist](https://github.com/github/linguist). To use fenced code blocks, insert three backticks (`` ``` ``) before and after the block. To specify a language to highlight, specify the language name referring to Linguist's [Languages YAML](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) file.
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
+
+WILL THIS WORK
+
+try shell as lang with timezone code
  
+```
 ```no-highlight
 Inline `code` has `back-ticks around` it.
+```
 ```
  
 Inline `code` has `back-ticks around` it.
