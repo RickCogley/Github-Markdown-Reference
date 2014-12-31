@@ -29,10 +29,7 @@ Please _don't edit this page_. Rather, if you have a suggestion, fork this repos
 * [Code and Syntax Highlighting](#code)  
 * [Tables](#tables)  
 * [Other Formatting](#otherformatting)  
-* [Inline HTML](#html)  
-* [Horizontal Rule](#hr)  
-* [Line Breaks](#linebreaks)  
-* [HTML embeds](#embeds) 
+* [HTML](#html)  
 
 # MARKDOWN REFERENCE & SHOWCASE
  
@@ -399,7 +396,7 @@ Use asterisks for emphasis (``**text to be emphasized**``) or pound-signs in fro
  
 An unhighlighted tag:  
 ```no-highlight
-Here's a tag: <xml>.
+Here's a tag: < xml >.
 ```
 </code>
 </pre>
@@ -492,7 +489,7 @@ Popular Compact Camera Comparison:
      **Sony** | _Full Frame_ | USD 2,000 
     **Leica** | _Full Frame_ | USD 8,000 
 ```
- 
+  
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
 Cost per ticket over three year period: 
@@ -515,178 +512,82 @@ Popular Compact Camera Comparison:
 <a name="otherformatting"/>
 > ## Other Formatting
  
-BLOCK QUOTES (and HRs)
+Markdown supports other formatting as well, namely horizontal rules and block quotes. For a horizontal rule enter three or more hyphens, asterisks or underscores. For a blockquote, enter a ``>`` before the line, and you can include Markdown inside a blockquote, as well. There is no special GFM syntax for these. 
+
+### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
+
 ```no-highlight
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
- 
-Quote break.
- 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+You could format a famous quotation in blockquote style, including inline Markdown, as follows: 
+
+> #### _If passion drives you, let reason hold the reins._ — Benjamin Franklin, 1706 - 1790
+
+Three or more hyphens, asterisks or underscores will be converted to a horizontal rule: 
+***
+----
+____
 ```
 
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
  
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
- 
-Quote break.
- 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
- 
+You could format a famous quotation in blockquote style, including inline Markdown, as follows: 
+
+> #### _If passion drives you, let reason hold the reins._ — Benjamin Franklin, 1706 - 1790
+
+Three or more hyphens, asterisks or underscores will be converted to a horizontal rule: 
+***
+----
+____
+  
 <a name="html"/>
-> ## Inline HTML
+> ## HTML Code
 
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well. 
+Markdown also allows you to enter raw HTML code, such as entering definition lists or image tags as we have explored above. 
 
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
-WHAT'S THE WHITELIST 
-https://github.com/github/markup/tree/master#html-sanitization
-
-Blah blah (``sample``) blah.
+Github specifies a [whitelist of permitted HTML tags](https://github.com/github/markup/tree/master#html-sanitization) to take note of. Unfortunately you cannot use iframe tags, which would be convenient for inserting embed codes from sites like Youtube (accessible from the video page, Share, Embed). You can even enter "[entities](http://www.entitycode.com)" directly, such as &#182;. 
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
  
 ```no-highlight
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
- 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-```
- 
-### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
+Sometimes entering an "entity" can be convenient: 
+&copy;&sect;&ne;&hearts;&spades;&clubs;&diams;&#182;
 
+Here's a definition list: 
 <dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
- 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets</dd>
+  <dt>XML</dt>
+  <dd>Extensible Markup Language</dd>
 </dl>
 
-* * *  
-<a name="hr"/>
-> ## Horizontal Rule
-
-Blah blah (``sample``) blah.
-
-### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
-
-Nothing special
-
-### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
- 
-```
-Three or more...
- 
----
- 
-Hyphens
- 
-***
- 
-Asterisks
- 
-___
- 
-Underscores
-```
-
-### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
- 
-Three or more...
- 
----
- 
-Hyphens
- 
-***
- 
-Asterisks
- 
-___
- 
-Underscores
-
-* * *  
-<a name="linebreaks"/>
-> ## Line Breaks
-
-Blah blah (``sample``) blah.
-
-### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
- 
-My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend. 
-
-### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
-
-WHAT IS IT - do we need this section? 
- 
-Here are some things to try out:
- 
-```
-Here's a line for us to start with.
- 
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
- 
-This line is also a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
-```
- 
-### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
-
-Here's a line for us to start with.
- 
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
- 
-This line is also begins a separate paragraph, but...  
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
- 
-(Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use MD's two-space line breaks.)
-
-* * *  
-<a name="embeds"/>
-> ## HTML Embeds
- 
-asdfasdfasdf
-
-### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
-
-asdfadsf
-
-### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
-
-Youtube videos have an embed code (an html iframe) which is accessible from Share, Embed on the video page. They can't be added directly but you can add an image with a link to the video like this:
- 
-```no-highlight
+And an img tag inside an anchor tag, to display a clickable Youtube video:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
 " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 ```
  
-Or, in pure Markdown, but losing the image sizing and border:
- 
-```no-highlight
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-```
-
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
+Sometimes entering an "entity" can be convenient:  
+&copy;&sect;&ne;&hearts;&spades;&clubs;&diams;&#182;
+
+Here's a definition list:  
+<dl>
+  <dt>CSS</dt>
+  <dd>Cascading Style Sheets</dd>
+  <dt>XML</dt>
+  <dd>Extensible Markup Language</dd>
+</dl>
+
+And a clickable Youtube video in nested Markdown:  
 [![Bazaar at Shinbashi Tokyo, by Rick Cogley](http://img.youtube.com/vi/ibhHk0CCYXA/0.jpg)](http://www.youtube.com/watch?v=ibhHk0CCYXA)
- 
 
-Referencing a bug by #bugID in your git commit links it to the slip. For example #1. 
+Or, the same in HTML with the size set (not possible in pure Markdown):  
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ibhHk0CCYXA
+" target="_blank"><img src="http://img.youtube.com/vi/ibhHk0CCYXA/0.jpg" 
+alt="Bazaar at Shimbashi Tokyo, by Rick Cogley" width="240" height="180" border="10" /></a>
 
-Other - you can just stick an entity in. Like &#182;
-
-<img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle">
-
-<img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle">
-
-<img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle">
+* * *  
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Github Markdown Cheatsheet</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://rick.cogley.info" property="cc:attributionName" rel="cc:attributionURL">James R. Cogley</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/RickCogley/Github-Markdown-Reference" rel="dct:source">https://github.com/RickCogley/Github-Markdown-Reference</a>.
