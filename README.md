@@ -318,7 +318,7 @@ Reference-style:
  
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
-![svg logo](https://github.com/RickCogley/Github-Markdown-Reference/blob/master/Assets/eSOLIA_Square_GoldBlue.svg)
+![svg logo](http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GoldBlue.svg)
 
 * * *  
 <a name="code"/>
