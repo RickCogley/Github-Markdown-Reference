@@ -28,7 +28,7 @@ Please _don't edit this page_. Rather, if you have a suggestion, fork this repos
 * [Images](#images)  
 * [Code and Syntax Highlighting](#code)  
 * [Tables](#tables)  
-* [Blockquotes](#blockquotes)  
+* [Other Formatting](#otherformatting)  
 * [Inline HTML](#html)  
 * [Horizontal Rule](#hr)  
 * [Line Breaks](#linebreaks)  
@@ -316,7 +316,7 @@ _eSolia PNG Logo as a Reference link with hoverable title_:
 [eSolia-Chicklet-03]: http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_BlueBrown.png "eSolia Chicklet 03"
 
 _eSolia SVG Logo as sized HTML img tag_:  
-<img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="20" width="20" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="100" width="100" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="200" width="200" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="400" width="400" align="absmiddle">
+<img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="40" width="40" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="100" width="100" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="200" width="200" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="400" width="400" align="absmiddle">
 ```
  
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
@@ -335,121 +335,187 @@ _eSolia PNG Logo as a Reference link with hoverable title_:
 [eSolia-Chicklet-03]: http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_GoldBlue.png "eSolia Chicklet 03"
 
 _eSolia SVG Logo as sized HTML img tag_:  
-<img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="20" width="20" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="100" width="100" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="200" width="200" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 10px Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="400" width="400" align="absmiddle">
+<img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="40" width="40" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="100" width="100" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="200" width="200" align="absmiddle"><img title="eSolia Chicklet 04" alt="eSolia Chicklet 04 Alt Text" src="http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowBlue.svg" height="400" width="400" align="absmiddle">
 
 * * *  
 <a name="code"/>
 > ## Code and Syntax Highlighting
  
-Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
+When writing about programming or source code, Markdown lets you create code blocks by indenting the lines of the block by 4 spaces or 1 tab. Indented blocks are wrapped by Markdown in both ``<pre>`` and ``<code>`` tags. Within a code block, Markdown will convert ampersands ``&`` and angle brackets ``<>`` into HTML entities, making it easy to simply paste HTML source code into a Markdown document. 
 
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
-Blah blah (``sample``) blah.
+Github not only supports "fenced" code blocks, which are easier to use compared to indents, but also syntax highlighting via [Linguist](https://github.com/github/linguist). To use fenced code blocks, insert three backticks before and after the block. To specify a language to highlight, specify the language name after the initial backticks, referring to Linguist's [Languages YAML](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) file (<code> ```javascript </code>).
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> Syntax
- 
-```no-highlight
-Inline `code` has `back-ticks around` it.
-```
- 
-Inline `code` has `back-ticks around` it.
- 
-Blocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
- 
-<pre lang="no-highlight"><code>```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
- 
-```python
-s = "Python syntax highlighting"
-print s
-```
- 
-```
-No language indicated, so no syntax highlighting. 
-But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
-```
-</code></pre>
- 
- 
- 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
- 
-```python
-s = "Python syntax highlighting"
-print s
-```
- 
-```
-No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
-But let's throw in a <b>tag</b>.
-```
- 
-===========SOME KIND OF DIFFERENT FORMAT============
 
+For quick code references inline, surround the snippet with two backticks on either side. Otherwise, enclose your code in fenced blocks per the below, specifying either the language to be highlighted, or, "no-highlight" to turn off syntax highlighting (<code>```no-highlight</code>). 
+ 
+<pre lang="no-highlight">
+<code>
+Display hidden files in the Linux shell using this command: ``ls -la``. 
+
+A shell script to return reference times in various timezones:  
+```shell
+echo == Reference Times ==
+echo -e "Tokyo - \t" `TZ=Asia/Tokyo date "+%Z (%z) %R %a %e %b %Y";`
+echo -e "Hong Kong - \t" `TZ=Hongkong date "+%Z (%z) %R %a %e %b %Y";`
+echo -e "Calcutta - \t" `TZ=Asia/Calcutta date "+%Z (%z) %R %a %e %b %Y";`
+echo -e "Berlin - \t" `TZ=Europe/Berlin date "+%Z (%z) %R %a %e %b %Y";`
+echo -e "London - \t" `TZ=GMT date "+%Z (%z) %R %a %e %b %Y";`
+echo -e "New York - \t" `TZ=US/Eastern date "+%Z (%z) %R %a %e %b %Y";`
+echo -e "Chicago - \t" `TZ=US/Central date "+%Z (%z) %R %a %e %b %Y";`
+echo -e "Denver - \t" `TZ=US/Mountain date "+%Z (%z) %R %a %e %b %Y";`
+echo -e "San Francisco - \t" `TZ=US/Pacific date "+%Z (%z) %R %a %e %b %Y"`
+```
+ 
+A square root function in javascript by John Carmack:  
+```javascript
+/*
+================
+SquareRootFloat by John Carmack
+================
+*/
+float SquareRootFloat(float number) {
+    long i;
+    float x, y;
+    const float f = 1.5F;
+
+    x = number * 0.5F;
+    y  = number;
+    i  = * ( long * ) &y;
+    i  = 0x5f3759df - ( i >> 1 );
+    y  = * ( float * ) &i;
+    y  = y * ( f - ( x * y * y ) );
+    y  = y * ( f - ( x * y * y ) );
+    return number * y;
+}
+```
+ 
+Some basic Markdown markup:  
+```markdown
+Use asterisks for emphasis (``**text to be emphasized**``) or pound-signs in front of headers (``### An H3 Header``) in Markdown.   
+```
+ 
+An unhighlighted tag:  
+```no-highlight
+Here's a tag: <xml>.
+```
+</code>
+</pre>
 
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
-===========SOME KIND OF DIFFERENT FORMAT============
+Display hidden files in the Linux bash shell using this command: ``ls -la``. 
 
+A shell script to return reference times in various timezones:  
+```shell
+echo == Reference Times ==
+echo -e "Tokyo - \t" `TZ=Asia/Tokyo date "+%Z (%z) %R %a %e %b %Y";`
+echo -e "Hong Kong - \t" `TZ=Hongkong date "+%Z (%z) %R %a %e %b %Y";`
+echo -e "Calcutta - \t" `TZ=Asia/Calcutta date "+%Z (%z) %R %a %e %b %Y";`
+echo -e "Berlin - \t" `TZ=Europe/Berlin date "+%Z (%z) %R %a %e %b %Y";`
+echo -e "London - \t" `TZ=GMT date "+%Z (%z) %R %a %e %b %Y";`
+echo -e "New York - \t" `TZ=US/Eastern date "+%Z (%z) %R %a %e %b %Y";`
+echo -e "Chicago - \t" `TZ=US/Central date "+%Z (%z) %R %a %e %b %Y";`
+echo -e "Denver - \t" `TZ=US/Mountain date "+%Z (%z) %R %a %e %b %Y";`
+echo -e "San Francisco - \t" `TZ=US/Pacific date "+%Z (%z) %R %a %e %b %Y"`
+```
+
+A square root function in javascript:  
+```javascript
+/*
+================
+SquareRootFloat by John Carmack
+================
+*/
+float SquareRootFloat(float number) {
+    long i;
+    float x, y;
+    const float f = 1.5F;
+
+    x = number * 0.5F;
+    y  = number;
+    i  = * ( long * ) &y;
+    i  = 0x5f3759df - ( i >> 1 );
+    y  = * ( float * ) &i;
+    y  = y * ( f - ( x * y * y ) );
+    y  = y * ( f - ( x * y * y ) );
+    return number * y;
+}
+```
+ 
+Some Markdown code:  
+```markdown
+Use asterisks for emphasis (``**text to be emphasized**``) or pound-signs in front of headers (``### An H3 Header``) in Markdown.   
+```
+
+An unhighlighted tag:    
+```no-highlight
+Here's a tag: <xml>.
+```
 
 * * *  
 <a name="tables"/>
 > ## Tables
  
-Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
+Markdown does not include a way to format tables, and to address this, several enhanced versions of Markdown are available such as [PHP Markdown Extra](https://michelf.ca/projects/php-markdown/extra/). 
 
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
-It's all GH style
+To add tables to your Github document or issue, use pipe characters to indicate columns in a given row (``| this col | that col |``), and colons in the second row to align text within a column. You can also use Markdown formatting within the table.  
 
-Blah blah (``sample``) blah.
+Try the [Markdown Tables Generator](http://www.tablesgenerator.com/markdown_tables) to get some assistance in building your tables. 
 
 ### <img title="white_check_mark" alt="white_check_mark" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2705.png" height="25" width="25" align="absmiddle"> <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Syntax
+
+When creating GFM tables keep in mind: 
+
+* outer pipes are not required but you can add them if you like that better
+* row-by-row pretty alignment is not needed, but do it if you prefer that
+* they include no fancy Excel-like features such as sums or averages - it's strictly DIY
  
 ```no-highlight
-Colons can be used to align columns.
+Cost per ticket over three year period: 
+
+| Year | Num Tickets Handled | Helpdesk Cost Per Annum in JPY | Cost Per Ticket in JPY |
+|-----:|--------------------:|-------------------------------:|-----------------------:|
+| 2012 |                5675 |                     12,000,000 |                   2115 |
+| 2013 |                6576 |                     12,200,000 |                   1885 |
+| 2014 |                9779 |                     15,150,000 |                   1549 |
+
+Popular Compact Camera Comparison:
  
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
- 
-The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
- 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+   **Camera** |  **Sensor**  |  **Cost** 
+-------------:|:------------:|----------:
+ **Fujifilm** |    _APSC_    | USD 1,300 
+     **Sony** | _Full Frame_ | USD 2,000 
+    **Leica** | _Full Frame_ | USD 8,000 
 ```
  
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
-Colons can be used to align columns.
+Cost per ticket over three year period: 
+
+| Year | Num Tickets Handled | Helpdesk Cost Per Annum in JPY | Cost Per Ticket in JPY |
+|-----:|--------------------:|-------------------------------:|-----------------------:|
+| 2012 |                5675 |                     12,000,000 |                   2115 |
+| 2013 |                6576 |                     12,200,000 |                   1885 |
+| 2014 |                9779 |                     15,150,000 |                   1549 |
+
+Popular Compact Camera Comparison:
  
-| Tables        | Are           | Cool |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
- 
-The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
- 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+   **Camera** |  **Sensor**  |  **Cost** 
+-------------:|:------------:|----------:
+ **Fujifilm** |    _APSC_    | USD 1,300 
+     **Sony** | _Full Frame_ | USD 2,000 
+    **Leica** | _Full Frame_ | USD 8,000 
 
 * * *  
-<a name="blockquotes"/>
-> ## Blockquotes
+<a name="otherformatting"/>
+> ## Other Formatting
  
+BLOCK QUOTES (and HRs)
 ```no-highlight
 > Blockquotes are very handy in email to emulate reply text.
 > This line is part of the same quote.
