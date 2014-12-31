@@ -113,7 +113,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <a name="emphasis"/>
 > ## Emphasis
  
-Add "emphasis" using asterisks (``_my italics_``) or underscores (``*my italics*``), and "strong emphasis" using double asterisks or underscores (``__my bold face__`` or ``**my bold fact**``). Emphasis gets converted to html ``<em></em>`` tags and strong emphasis to ``<strong></strong>`` tags. This style of markup is semantic (meaning it is meaningful in terms of the structure of the document) and not just cosmetic, and it's where the names of the tags come from. 
+Add "emphasis" using underscores (``_my italics_``) or asterisks (``*my italics*``), and "strong emphasis" using double underscores or asterisks (``__my bold face__`` or ``**my bold fact**``). Emphasis gets converted to html ``<em></em>`` tags and strong emphasis to ``<strong></strong>`` tags. This style of markup is semantic (meaning it is meaningful in terms of the structure of the document) and not just cosmetic, and it's where the names of the tags come from. 
 
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
@@ -290,7 +290,7 @@ For images, Markdown uses similar syntax to links. Just add a ``!`` in front of 
 GFM uses the same syntax as regular Markdown for images. However, note that if you need images for a README.md file like this one, there are a couple ways you can do prepare them for use: 
 
 1. Upload the image to a Github Issue, and use its URL in the image markdown in the README.md. 
-1. Create a Github Pages page, and upload the images to the resulting gh-pages branch of the repository. Gh-pages are served via a fast ngnix instance, via an URL like ``http://myuser.github.io/myrepo/path/to/myimage.png``. 
+1. Create a Github Pages page (like [the one for this project](http://rickcogley.github.io/Github-Markdown-Reference)), and upload the images to the resulting gh-pages branch of the repository. Gh-pages are served via a fast ngnix instance, via an URL like ``http://myuser.github.io/myrepo/path/to/myimage.png``. 
 1. Upload the image to your repository, and reference it from there. This is _not a good idea however_, because the image will be served via the Github application layer. Raster images (.gif, .png, .jpg) work, but vector images (.svg) won't even be displayed when referenced in this manner, instead appearing as the underlying code instead of the image. Compare [this .png image](https://raw.githubusercontent.com/RickCogley/Github-Markdown-Reference/master/Assets/eSOLIA_Square_BlueBrown.png) with [this .svg image](https://raw.githubusercontent.com/RickCogley/Github-Markdown-Reference/master/Assets/eSOLIA_Square_BlueBrown.svg) served directly from the repository. 
 1. Serve the images from another service like Imgur or Dropbox.
 
@@ -318,7 +318,7 @@ _eSolia SVG Logo as sized HTML img tag_:
  
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
-We'll serve these via our Github Pages project site.
+We'll serve these via our Github Pages [project site](http://rickcogley.github.io/Github-Markdown-Reference).
 
 _eSolia SVG Logo as an Inline link_:  
 ![eSolia Chicklet 01 Alt Text](http://rickcogley.github.io/Github-Markdown-Reference/images/eSOLIA_Square_YellowGreen.svg)
