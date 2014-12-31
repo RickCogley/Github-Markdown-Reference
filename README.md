@@ -224,7 +224,7 @@ Necessary leading and trailing spaces are indicated with dots: ••
 <a name="links"/>
 > ## Links
  
-Markdown allows you to create inline or reference links. Inline links have all the information for the link included inline in the document (``[eSolia Inc.](http://www.esolia.com)``), whereas reference links simply refer to a code elsewhere in the document (``[eSolia Inc.][1]``). The point to reference links is to allow you to keep your document tidy, so that it's easier to read. You can also 
+Markdown allows you to create inline or reference links. Inline links have all the information for the link included inline in the document (``[eSolia Inc.](http://www.esolia.com)``), whereas reference links simply refer to a code elsewhere in the document (``[eSolia Inc.][1]``). The point to reference links is to allow you to keep your document tidy, so that it's easier to read. 
 
 ### <img title="octocat" alt="octocat" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="25" width="25" align="absmiddle"> Github Style
 
@@ -237,29 +237,16 @@ Notice that inline links use the syntax ``[]()`` whereas reference links use ``[
 ```no-highlight
 * _Inline link_: visit [eSolia](http://www.esolia.com) for Tokyo IT support...  
 * _Inline link with title_: eSolia [PROdb](http://www.esolia.com/prodb "eSolia PROdb cloud database") is a rock-solid cloud database... (hover over the link to see a tooltip with the title text)
+* _Inline link with relative path_: See the [license](../../blob/master/LICENSE.md) for this project...
 * _Reference link with number_: visit [eSolia][1] for Tokyo IT support... 
 * _Reference link with text_: eSolia [PROdb][Cloud Database PROdb]...
+* _Reference link to reference text alone_: See eSolia's [Cloud Database PROdb]...
 
 [1]: http://www.esolia.com
 [Cloud Database PROdb]: http://www.esolia.com/prodb
- 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
- 
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
- 
-[I'm a relative reference to a repository file](../../blob/master/LICENSE.md)
- 
-[You can use numbers for reference-style link definitions][1]
- 
-Or leave it empty and use the [link text itself]
- 
-Some text to show that the reference links can follow later.
- 
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-```
- 
+
+#### In Issues: 
+
 * SHA: ad251b871766f269af97d9c2be4228f0beb6c04f
 * Short SHA: ad251b (does _not_ work)
 * User@SHA: rickcogley@ad251b871766f269af97d9c2be4228f0beb6c04f
@@ -268,32 +255,32 @@ Some text to show that the reference links can follow later.
 * Issue "GH" Number: GH-3
 * User#Num: rickcogley#3
 * User/Repository#Num: rickcogley/Github-Markdown-Reference#3
-
-
-
+```
+ 
 ### <img title="diamond_shape_with_a_dot_inside" alt="diamond_shape_with_a_dot_inside" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4a0.png" height="25" width="25" align="absmiddle"> Showcase
 
-[I'm an inline-style link](https://www.google.com)
- 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
- 
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
- 
-[I'm a relative reference to a repository file](../../blob/master/LICENSE.md)
- 
-[You can use numbers for reference-style link definitions][1]
- 
-Or leave it empty and use the [link text itself]
- 
-Some text to show that the reference links can follow later.
- 
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
+* _Inline link_: visit [eSolia](http://www.esolia.com) for Tokyo IT support...  
+* _Inline link with title_: eSolia [PROdb](http://www.esolia.com/prodb "eSolia PROdb cloud database") is a rock-solid cloud database... (hover over the link to see a tooltip with the title text)
+* _Inline link with relative path_: See the [license](../../blob/master/LICENSE.md) for this project...
+* _Reference link with number_: visit [eSolia][1] for Tokyo IT support... 
+* _Reference link with text_: eSolia [PROdb][Cloud Database PROdb]...
+* _Reference link to reference text alone_: See eSolia's [Cloud Database PROdb]...
 
+[1]: http://www.esolia.com
+[Cloud Database PROdb]: http://www.esolia.com/prodb
 
-SEE:
-https://github.com/RickCogley/Github-Markdown-Reference/issues/2
+#### In Github Issues: 
+
+The below links won't work in this README.md file, but you can see them working in [this issue](https://github.com/RickCogley/Github-Markdown-Reference/issues/2). 
+
+* SHA: ad251b871766f269af97d9c2be4228f0beb6c04f
+* Short SHA: ad251b (does _not_ work)
+* User@SHA: rickcogley@ad251b871766f269af97d9c2be4228f0beb6c04f
+* User/Repository@SHA: rickcogley/Github-Markdown-Reference@ad251b871766f269af97d9c2be4228f0beb6c04f
+* Issue Number: #3
+* Issue "GH" Number: GH-3
+* User#Num: rickcogley#3
+* User/Repository#Num: rickcogley/Github-Markdown-Reference#3
 
 * * *  
 <a name="images"/>
