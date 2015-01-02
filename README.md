@@ -1,8 +1,10 @@
 # INTRODUCTION
 
-This is a cheatsheet for Markdown, including GFM or "Github Flavored Markdown" as Github calls it, containing syntax and examples. 
+This document is a cheatsheet for Markdown, with emphasis on the "GFM" or "Github Flavored Markdown" as Github calls it, containing syntax and examples intended to help authors writing on Github. Markdown is a text formatting syntax designed to be easy to input by people, yet be converted to HTML by an application code library of the same name. 
 
-Markdown is originally by John Gruber, and you should read his [original specification](http://daringfireball.net/projects/markdown/). Markdown is ubiquitous at the time of this writing, and is the syntax of choice for many wikis, blogs, forums and website generator applications. Markdown allows you to enter markup in an easy-to-remember manner, for instance using asterisks for emphasis (``**text to be emphasized**``) or pound-signs in front of headers (``### An H3 Header``), and it then takes care of the conversion to HTML markup in in the background.   
+Markdown and its variants are ubiquitous at the time of this writing, and are the syntax of choice for many wikis, blogs, forums and website generator applications (Github, Reddit, Stack Exchange, Source Forge etc). Markdown allows you to enter easy-to-remember markup, for instance using asterisks for emphasis (``**text to be emphasized**``) or pound-signs in front of headers (``### An H3 Header``), and it then takes care of the conversion to HTML markup in the background.   
+
+Markdown is originally by John Gruber, and you should read his [original specification](http://daringfireball.net/projects/markdown/), and the [wikipedia article](https://en.wikipedia.org/wiki/Markdown) on the same. 
 
 **Request**
 
@@ -18,6 +20,7 @@ Please _don't edit this page_. Rather, if you have a suggestion, fork this repos
 * Repositories regarding Markdown syntax from [dvidsilva](https://github.com/dvidsilva/MarkdownReference) and [adam-p](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 * Adam Pritchard's [Markdown Here](http://www.markdown-here.com/livedemo.html) or the  [Markdown-it](https://markdown-it.github.io) demo sites, where you can experiment in a kind of "sandbox" environment. 
 * Github includes the emoji from [The Emoji Cheatsheet](http://www.emoji-cheat-sheet.com).
+* Wikipedia article on [Markdown](https://en.wikipedia.org/wiki/Markdown).
 
 ## Table of Contents
 
